@@ -20,6 +20,16 @@ module.exports = {
   /*
   ** Build configuration
   */
+  modules: [
+  [
+    'nuxt-bulma-slim',
+    {
+      variablesPath: 'assets/scss/my-variables.scss',
+      additionalPaths: ['assets/scss/modules/modules.scss']
+    }
+  ]
+  ],
+
   build: {
     /*
     ** Run ESLint on save
