@@ -25,7 +25,11 @@ module.exports = {
     'nuxt-bulma-slim',
     {
       variablesPath: 'assets/scss/my-variables.scss',
-      additionalPaths: ['assets/scss/modules/modules.scss']
+      additionalPaths: ['assets/scss/base/base.scss',
+      'assets/scss/layout/layout.scss',
+      'assets/scss/components/components.scss', 
+      'assets/scss/app.scss'
+    ]
     }
   ]
   ],

@@ -1,32 +1,6 @@
-$primary: yellow;
 
-#page {
-  display: grid;
-  width: 100%;
-  height: 100vh;
-  grid-template-areas: "head head"
-                       "nav  main"
-                       "nav  foot";
-  grid-template-rows: 50px 1fr 30px;
-  grid-template-columns: 150px 1fr;
-}
+$body-background-color: #FAFAFA;
 
-#page > header {
-  grid-area: head;
-  background-color: #8ca0ff;
-}
+$size-1: 10rem;
 
-#page > nav {
-  grid-area: nav;
-  background-color: #ffa08c;
-}
-
-#page > main {
-  grid-area: main;
-  background-color: #ffff64;
-}
-
-#page > footer {
-  grid-area: foot;
-  background-color: #8cffa0;
-}
+$family-sans-serif: "Roboto", BlinkMacSystemFont, -apple-system, sans-serif;
