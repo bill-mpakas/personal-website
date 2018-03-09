@@ -14,15 +14,17 @@
     				<!-- navbar items -->
   					</div>
   				<div class="navbar-end">
-    				<nuxt-link class="navbar-item" to="/">Home</nuxt-link>
-          	<nuxt-link class="navbar-item" to="/about">About</nuxt-link>
-          	<nuxt-link class="navbar-item" to="/projects">Projects</nuxt-link>
+    				<nuxt-link class="navbar-item" to="/">About</nuxt-link>
+          	<nuxt-link class="navbar-item" to="/about">Projects</nuxt-link>
+          	<nuxt-link class="navbar-item" to="/projects">Case Studies</nuxt-link>
           	<nuxt-link class="navbar-item" to="/contact">Contact</nuxt-link>
   				</div>
         </div>
     	</nav>
 		</div>
 </template>
+
+
 
 
 
