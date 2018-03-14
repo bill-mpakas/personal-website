@@ -1,17 +1,27 @@
 <template>
-  <div>
-    <navbar></navbar>
-    <nuxt/>
+  <div id="app">
+    <div class="container">
+      <div class="inner">
+        <nav>
+          <nuxt-link to="/" id="logo">Bill Bakas</nuxt-link>
+          <ul>
+            <li><nuxt-link to="/">Home</nuxt-link></li>
+            <li><nuxt-link to="/about">About</nuxt-link></li>
+          </ul>
+        </nav>
+        <transition name="fade" mode="out-in">
+          <nuxt />
+        </transition>
+      </div>
+    </div>
+
   </div>
 </template>
 
 <script>
-  import Navbar from '../components/Navbar'
-  import ProjectCard from '../components/ProjectCard'
 
-  export default {
-    components: {
-      Navbar,ProjectCard
-    }
-  }
 </script>
+
+<style lang="scss" src="../assets/global.scss">
+
+</style>
