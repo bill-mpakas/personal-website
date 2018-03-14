@@ -1,13 +1,10 @@
 <template>
-  <div class="grid">
-    <div class="container">
+  <div id="app">
+    <div class="wrapper">
       <navbar></navbar>
       <transition name="fade" mode="out-in">
           <nuxt />
       </transition>
-    </div>
-    <div class="copyright">
-      <p>Designed and Developed with 💌 by Bill Bakas</p>
     </div>
   </div>
 </template>

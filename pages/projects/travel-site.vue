@@ -1,14 +1,18 @@
 <template>
-  <div class="main-content">
-    <h1>Hi There, I am Bill</h1>
-    <div class="left-content">
-      <h1>Hi, there i am Bill</h1>
-      <p class="subtxt">I create and code user interfaces for the web</p>
-      <p class="subtxt">I consider myself a full stack designer</p>
-    </div>
-    <div class="right-content">
-      <button><nuxt-link to="/portfolio/travel-site">View my Work</nuxt-link></button> 
-    </div>
+  <div class="wrapper-box">
+    <div class="main-content">
+      <div class="title slideUp">
+        <h1>Terry's Taco Joint</h1>
+        <p>Pretty Good Tacos!</p>
+      </div>
+      <div class="description">
+        <p class="description__content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, accusantium!</p>
+        <p class="description__technologies">HTML,CSS, JS</p>
+      </div>
+      <div class="details">
+        <img src="~/assets/images/phone.jpg" alt="">
+      </div>
+  </div>
   </div>
 </template>
 

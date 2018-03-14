@@ -1,28 +1,17 @@
 <template>
-  <section class="container">
-    <div>
-      <app-logo/>
-      <h1 class="title">
-        Hi, I'm Bill
-      </h1>
-      <div class="hero is-danger is-fullheight">
-        <div class="hero-body">
-          <h1>Hello</h1>
-        </div>
+  <div class="wrapper-box">
+    <div class="main-content">
+      <div class="title">
+        <h1>Terry's Taco Joint</h1>
+        <p>Pretty Good Tacos!</p>
       </div>
-      <h2 class="subtitle">
-        And this is my personal website
-      </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green">Documentation</a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey">GitHub</a>
+      <div class="description">
+        <p class="description__content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, accusantium!</p>
+        <p class="description__technologies">HTML,CSS, JS</p>
       </div>
-    </div>
-  </section>
+      <div class="details">
+        <img src="~/assets/images/phone.jpg" alt="">
+      </div>
+  </div>
+  </div>
 </template>

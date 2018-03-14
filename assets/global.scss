@@ -1,49 +1,113 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 
 body, html {
-  margin: 0;
-  height: 100%;
   font-family: 'Montserrat', sans-serif;
 }
 
-body {
-  display: grid;
+img {
+  max-width: 100%;
+}
+
+.wrapper-box {
   justify-items: center;
   align-items: center;
-  grid-template-columns: 100%;
-  background-color: #FAFAFA;
   grid-template-areas: 
-  "inner-grid"
-}
-
-.grid {
-  grid-area: inner-grid;
-  max-width: 90%;
+  "iface";
   display: grid;
-  grid-template-columns: 100%;
-  grid-template-rows: 500px auto;
-  grid-template-areas: 
-  "box"
-  "copyright"
+  grid-gap: 10px;
 }
 
-.container {
-  display: grid;
-  grid-template-columns: 20% auto;
-  grid-template-rows: 20% auto;
-  background-color: red;
-}
-
-.inner {
-  grid-template-areas: box;
+.main-content {
+  grid-area: iface;
+  width: 90%;
+  height: 90%;
+  background: #FAFAFA;
   box-shadow: 15px 15px 40px lightgray;
   overflow: hidden;
-  height: 100%;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-areas:
+  "title details"
+  "description details"
+  "description details"
 }
 
-.copyright {
-  grid-template-areas: copyright;
-  text-align: center;
+.details {
+  grid-area: details;
+  min-height: 500px;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+
+.description {
+  grid-area: description;
+  min-height: 500px;
+}
+
+.menu-items {
+  display: grid;
+  grid-gap: 10px;
+  padding: 0;
+  list-style: none;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  a {
+    background: yellow;
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    font-size: 20px;
+  }
+}
+
+.slideUp {
+  animation: slideUpAnim 3s forwards;
+  opacity: 0;
+}
+
+@keyframes slideUpAnim {
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  to {
+    opacity: 100;
+    transform: translateY(0);
+  }
+}
+
+.fade-enter-active {
+  animation: slidePageIn 1.5s forwards;
+  animation-timing-function: cubic-bezier(.8, -0.49, .36, 1);
+}
+
+.fade-leave-active {
+  animation: slidePageDown 1.5s forwards;
+  animation-timing-function: cubic-bezier(.8, -0.49, .36, 1);
+}
+
+@keyframes slidePageIn {
+  from {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+@keyframes slidePageDown {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    transform: translateY(0%);
+  }
 }
 
 
