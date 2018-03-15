@@ -10,8 +10,7 @@
         <p class="content__main">
           When I was young I had this dream about becoming a pro skateboarder. 
           I was the first to be at the skate park every day and the last to leave. 
-          I would spend every day pushing myself to become better and better. 
-          Sadly, I didn’t manage to become a pro skateboarder, but what I did learn from skateboarding is the consistent work it takes to be good at something – knowledge I apply to the professional work I do now.
+          knowledge I apply to the professional work I do now.
         </p>
       </div>
       <a class="btn btn--blue" href="">Download CV</a>
