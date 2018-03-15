@@ -9,22 +9,22 @@
     </nav>
 </template>
 
-<style lang="scss">
-  .menu-items {
+<style scoped lang="scss">
+  .menu ul {
     display: grid;
-    grid-gap: 10px;
-    padding: 0;
+    align-items: center;      /* new */
+    justify-items: center;
     list-style: none;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-gap: 20px;
+    padding: 0 0 0 100px;
+    grid-template-columns: repeat(auto-fill, minmax(40px, 1fr));
     a {
-      background: yellow;
       display: block;
       text-decoration: none;
-      padding: 10px;
       text-align: center;
       color: black;
-      text-transform: uppercase;
-      font-size: 20px;
+      text-transform:lowercase;
+      font-size: 14px;
     }
   }
 </style>
