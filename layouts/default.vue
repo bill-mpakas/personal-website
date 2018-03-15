@@ -24,6 +24,7 @@ export default {
 </style>
 
 <style lang="scss">
+
 .wrapper-box {
   justify-items: center;
   align-items: center;
@@ -34,16 +35,12 @@ export default {
 
 .main-content {
   grid-area: iface;
-  width: 90vw;
+  width: 80vw;
   height: 80vh;
   background: #FAFAFA;
   box-shadow: 15px 15px 20px lightgray;
   display: grid;
-  grid-template-columns: 50% auto;
-  grid-template-areas:
-  "title details"
-  "description details"
-  "description details"
+  grid-template-columns: 100%;
 }
 
 .details {

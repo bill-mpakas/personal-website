@@ -22,7 +22,7 @@
 </template>
 
 <style lang="scss" scoped>
-  $page_color: #625B7E;
+  $page_color: yellow;
 
   .main-content {
   grid-area: iface;

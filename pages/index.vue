@@ -19,9 +19,6 @@
   </div>
 </template>
 
-<style lang="scss" src="../assets/global.scss">
-</style>
-
 <style lang="scss" scoped>
   $page_color: #625B7E;
 
@@ -30,6 +27,7 @@
   background: #FAFAFA;
   box-shadow: 15px 15px 20px lightgray;
   display: grid;
+  grid-template-columns: 50% auto;
   grid-template-areas:
   "title  details"
   "title details"

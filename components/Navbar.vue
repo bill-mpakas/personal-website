@@ -17,6 +17,7 @@
     list-style: none;
     grid-gap: 20px;
     padding: 0 0 0 100px;
+    grid-auto-columns: auto;
     grid-template-columns: repeat(auto-fill, minmax(40px, 1fr));
     a {
       display: block;
@@ -25,6 +26,10 @@
       color: black;
       text-transform:lowercase;
       font-size: 14px;
+    }
+
+    li {
+      
     }
   }
 </style>

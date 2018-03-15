@@ -1,29 +1,25 @@
 <template>
   <div class="wrapper-box">
     <div class="main-content">
-      <div class="project slideUp">
-        <h1 class="project__title">Travel Site</h1>
-        <p class="project__type">PSD to HTML, CSS, JS</p>
+      <div class="avatar">
+        <img src="http://i.pravatar.cc/170" alt="" class="avatar__img">
+        <div class="avatar__social">fb, linkedin</div>
       </div>
-      <div class="description">
-        <p class="description__content">This was my first web development project back in 2016. I found about an awesome course on Udemy called “Git a developer Job”  by the instructor Brad Schiff. 
-          This course introduced me to many industry standard technologies such as npm, GIT, ES6, Sass, PostCSS, Gulp and Node helping me grasp a better understanding of the modern web development workflow. 
-          Up until now, i refer to this particular project because it breaks down the workflow of building a website in a nice and structured way.
+      <div class="content">
+        <h3 class="content__intro">My Journey</h3>
+        <p class="content__main">
+          When I was young I had this dream about becoming a pro skateboarder. 
+          I was the first to be at the skate park every day and the last to leave. 
+          knowledge I apply to the professional work I do now.
         </p>
       </div>
-      <div class="technologies">
-        <span class="technologies__icons">PSD to HTML, HTML, CSS</span>
-      </div>
+      <a class="btn btn--blue" href="">Download CV</a>
       <div class="details img2">
-        <img src="~/assets/images/phone.jpg" alt="">
+        <img src="~/assets/images/home.jpg" alt="">
       </div>
     </div>
   </div>
 </template>
-
-<script>
-
-</script>
 
 <style lang="scss" scoped>
   $page_color: #625B7E;
@@ -33,9 +29,59 @@
   background: #FAFAFA;
   box-shadow: 15px 15px 20px lightgray;
   display: grid;
+  grid-template-columns: 50% auto;
   grid-template-areas:
   "avatar  details"
   "content details"
   "cv details"
+}
+
+.avatar {
+  grid-area: avatar;
+  display: grid;            /* new */
+  align-items: center;      /* new */
+  justify-items: center;   
+
+  &__img {
+    align-content: center;
+    align-items: center;
+    border-radius: 50%;
   }
+
+  &__social {
+    text-align: center;
+  }
+}
+
+.content {
+  grid-area: content;
+
+  &__intro {
+    text-align: center;
+    font-size: 1rem;
+  }
+  &__main {
+    font-size: 1rem;
+    padding: 0 30px 0 30px;
+  }
+}
+.details {
+  background: $page_color;
+
+  img {
+    width: 100%;
+  }
+}
+
+.btn {
+  grid-area: cv;
+}
 </style>
+
+
+
+
+
+<script>
+
+</script>
