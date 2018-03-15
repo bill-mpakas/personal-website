@@ -19,6 +19,9 @@
   </div>
 </template>
 
+<style lang="scss" src="../assets/global.scss">
+</style>
+
 <style lang="scss" scoped>
   $page_color: #625B7E;
 

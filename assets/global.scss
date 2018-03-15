@@ -18,6 +18,14 @@ img {
   max-width: 100%;
 }
 
+.wrapper-box {
+  justify-items: center;
+  align-items: center;
+  grid-template-areas: 
+  "iface";
+  display: grid;
+}
+
 .btn {
   align-self: center;
   justify-self: center;
@@ -36,43 +44,6 @@ img {
   transition-delay: 0s;
   border: 0;
   z-index: 1;
-}
-
-.wrapper-box {
-  justify-items: center;
-  align-items: center;
-  grid-template-areas: 
-  "iface";
-  display: grid;
-}
-
-.main-content {
-  grid-area: iface;
-  width: 90vw;
-  height: 80vh;
-  background: #FAFAFA;
-  box-shadow: 15px 15px 20px lightgray;
-  display: grid;
-  grid-template-columns: 50% auto;
-  grid-template-areas:
-  "title details"
-  "description details"
-  "description details"
-}
-
-.details {
-  grid-area: details;
-  justify-items: center;
-  align-items: center;
-  padding-left: 40px;
-  padding-right: 40px;
-  display: grid;
-  grid-template-columns: auto;
-}
-
-.description {
-  grid-area: description;
-  min-height: 40vh;
 }
 
 // .slideUp {

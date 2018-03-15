@@ -31,8 +31,13 @@ export default {
     background: #FAFAFA;
     box-shadow: 15px 15px 20px lightgray;
     display: grid;
-    grid-template-rows: 1fr auto;
-    grid-template-columns: 90% auto;
-}
+    grid-template-rows: 10% auto;
+    grid-template-areas:
+    "title"
+    "projects"
+  }
+
+
 </style>
+
 
