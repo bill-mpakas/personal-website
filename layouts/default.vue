@@ -26,19 +26,18 @@ export default {
 <style lang="scss">
 
 .wrapper-box {
-  justify-items: center;
-  align-items: center;
+  // background: #FAFAFA;
+  // box-shadow: 15px 15px 20px lightgray;
+  display: grid;
+  padding: 20px;
+  width: auto;
+  min-height: 80vh;
   grid-template-areas: 
   "iface";
-  display: grid;
 }
 
 .main-content {
   grid-area: iface;
-  width: 80vw;
-  height: 80vh;
-  background: #FAFAFA;
-  box-shadow: 15px 15px 20px lightgray;
   display: grid;
   grid-template-columns: 100%;
 }

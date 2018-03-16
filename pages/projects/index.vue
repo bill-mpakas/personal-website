@@ -48,7 +48,7 @@
     grid-area: iface;
     box-shadow: 15px 15px 20px lightgray;
     display: grid;
-    grid-template-rows: 10% 1fr;
+    grid-template-rows: 10% auto;
     grid-template-areas: 
     "title"
     "projects"

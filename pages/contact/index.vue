@@ -76,6 +76,22 @@
 .btn {
   grid-area: cv;
 }
+
+.slideUp {
+  animation: slideUpAnim 2s forwards;
+  opacity: 0;
+}
+
+@keyframes slideUpAnim {
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  to {
+    opacity: 100;
+    transform: translateY(0);
+  }
+}
 </style>
 
 
