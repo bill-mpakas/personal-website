@@ -63,7 +63,7 @@ h1 {
   background: $page_color;
 
   img {
-    width: 100%;
+    width: 40%;
   }
 }
 
