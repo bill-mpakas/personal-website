@@ -6,12 +6,9 @@
         <h1 class="title__heading">I'm Bill Bakas, <br> a designer &amp; developer</h1>
         <p class="title__text">I love to design and code user interfaces, <br> iterate and create user-friendly products.</p>
       </div>
-      <nuxt-link class="btn btn--white" to="about/">More about me</nuxt-link>
-      <!-- <div class="description">
-        <p class="description__content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, accusantium!</p>
-        <p class="description__technologies">HTML,CSS,JS</p>
-        <nuxt-link to="/portfolio/two"><img src="~/assets/images/arrow-down.svg" class="arrow arrow-down"></nuxt-link>
-      </div> -->
+      <div class="cta">
+        <nuxt-link class="btn btn--white" to="about/">More about me</nuxt-link>
+      </div>
       <div class="details img2">
         <img src="~/assets/images/home.jpg" alt="">
       </div>
@@ -27,12 +24,24 @@
   background: #FAFAFA;
   box-shadow: 15px 15px 20px lightgray;
   display: grid;
-  grid-template-columns: 50% auto;
+  grid-template-columns: 50% 50%;
   grid-template-areas:
   "title  details"
   "title details"
   "cta details"
 }
+
+@media (max-width: 900px) { 
+  .main-content {
+  grid-area: iface;
+  grid-gap: 20px;
+  grid-template-columns: 100%;
+  grid-template-areas:
+  "title"
+  "details"
+  "cta"
+}
+ }
 
 .title {
   grid-area: title;
@@ -61,14 +70,17 @@ h1 {
 
 .img2 {
   background: $page_color;
-
-  img {
-    width: 40%;
-  }
 }
 
-.btn {
+.cta {
   grid-area: cta;
+  text-align: center;
+
+  @media (max-width: 900px) { 
+    .cta {
+      
+    }
+  }
 }
 </style>
 

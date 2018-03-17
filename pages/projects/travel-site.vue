@@ -25,9 +25,9 @@
             <img src="~/assets/icons/git.svg" alt="html5">
           </div>
         </div>
-      </div>
-      <div class="cta">
+        <div class="cta">
           <a target="_blank" class="btn btn--white" href="https://bill-mpakas.github.io/travel-site/">View Project</a>
+        </div>
       </div>
       <div class="details">
         <img class="product-image" src="~/assets/images/mockups/travel-site.jpg" alt="">
@@ -37,6 +37,8 @@
 </template>
 
 <style lang="scss" scoped>
+
+
   $page_color: #625B7E;
 
   .main-content {
@@ -44,27 +46,48 @@
   background: #FAFAFA;
   box-shadow: 15px 15px 20px lightgray;
   display: grid;
-  grid-template-rows: 15% 70% 15%;
+  grid-template-rows: 15% 85%;
+  grid-template-columns: 50% 50%;
   grid-template-areas:
-  "title  details"
+  "title details"
   "description details"
-  "cta details"
 }
 
 @media (max-width: 900px) { 
   .main-content {
-  grid-area: iface;
-  background: #FAFAFA;
-  box-shadow: 15px 15px 20px lightgray;
-  display: grid;
-  grid-template-rows:  auto auto auto auto;
+  grid-template-rows: auto auto auto;
   grid-template-columns: 100%;
   grid-template-areas:
   "title"
-  "description"
   "details"
-  "cta"
+  "description"
 }
+ }
+
+ .arrow {
+   position: absolute;
+   left: 48.8%;
+
+   @media (max-width: 900px) { 
+     
+   }
+ }
+
+ .arrow-down {
+   display: block;
+   bottom: 7.5%;
+   @media (max-width: 900px) { 
+    bottom: 0;
+   }
+ }
+
+ .arrow-up {
+   display: block;
+   top: 7.5%;
+
+   @media (max-width: 900px) { 
+    top: 0;
+   }
  }
 
 h1 {
@@ -81,7 +104,7 @@ h1 {
 
 .details {
   grid-area: details;
-  background-color: yellow;
+  background-color: $page_color;
 }
 
 .tech {
@@ -95,7 +118,7 @@ h1 {
   }
 }
 .cta {
-  grid-area: cta;
+  padding-top: 30px;
   text-align: center;
 }
 

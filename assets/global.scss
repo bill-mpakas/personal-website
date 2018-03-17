@@ -17,6 +17,21 @@ img {
   max-width: 100%;
 }
 
+.arrow {
+  
+  width: 30px;
+}
+
+.arrow-down {
+  @media (max-width: 900px) { 
+    top: 0;
+   }
+}
+
+.arrow-up {
+
+}
+
 /**
   Single Project Section
 */
@@ -53,7 +68,6 @@ img {
   text-decoration: none;
   display: inline-block;
   font-size: .8rem;
-  overflow: hidden;
   background: none;
   padding: .95em 1.6em;
   background-color: #0003d1;

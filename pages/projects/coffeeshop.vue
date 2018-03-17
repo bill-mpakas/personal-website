@@ -1,6 +1,7 @@
 <template>
   <div class="wrapper-box">
     <div class="main-content">
+      <nuxt-link to="/projects/coffeeshop"><img src="~/assets/icons/arrow-down.svg" class="arrow arrow-up"></nuxt-link>
       <div class="project">
         <h1 class="project__title">Travel Site</h1>
         <!-- <h3 class="project__subtitle">What I did</h3> -->
@@ -25,9 +26,9 @@
             <img src="~/assets/icons/git.svg" alt="html5">
           </div>
         </div>
-      </div>
-      <div class="cta">
+        <div class="cta">
           <a target="_blank" class="btn btn--white" href="https://bill-mpakas.github.io/travel-site/">View Project</a>
+        </div>
       </div>
       <div class="details">
         <img class="product-image" src="~/assets/images/mockups/travel-site.jpg" alt="">
@@ -44,12 +45,11 @@
   background: #FAFAFA;
   box-shadow: 15px 15px 20px lightgray;
   display: grid;
-  grid-template-rows: 15% 70% 15%;
+  grid-template-rows: 15% 85%;
   grid-template-columns: 50% 50%;
   grid-template-areas:
-  "title  details"
+  "title details"
   "description details"
-  "cta details"
 }
 
 @media (max-width: 900px) { 
@@ -58,13 +58,12 @@
   background: #FAFAFA;
   box-shadow: 15px 15px 20px lightgray;
   display: grid;
-  grid-template-rows: auto auto auto auto;
+  grid-template-rows: auto auto auto;
   grid-template-columns: 100%;
   grid-template-areas:
   "title"
-  "description"
-  "cta"
   "details"
+  "description"
 }
  }
 
@@ -82,29 +81,21 @@ h1 {
 
 .details {
   grid-area: details;
-  background-color: yellow;
+  background-color: $page_color;
 }
 
 .tech {
-  grid-area: tech;
 
   &__logos {
     
     display: grid;
     grid-gap: 40px;
-    grid-template-columns: repeat(auto-fit, minmax(20px,35px));
+    grid-template-columns: repeat(auto-fit, minmax(15px,30px));
     justify-content: center;
   }
 }
-
-.details {
-  grid-area: details;
-  background-color: $page_color;
-  
-}
-
 .cta {
-  grid-area: cta;
+  padding-top: 30px;
   text-align: center;
 }
 

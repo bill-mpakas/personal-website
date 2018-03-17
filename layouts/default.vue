@@ -27,9 +27,9 @@ export default {
 
 .wrapper-box {
   display: grid;
-  padding: 20px;
-  min-height: 80vh;
-  max-height: 80vh;
+  padding-left: 20px;
+  padding-right: 20px;
+  grid-template-rows: 80vh;
   grid-template-areas: 
   "iface";
 }
@@ -37,7 +37,7 @@ export default {
 .main-content {
   grid-area: iface;
   display: grid;
-  grid-template-columns: 53% 47%;
+  grid-template-columns: 100%;
 }
 
 @media (max-width: 900px) { 
