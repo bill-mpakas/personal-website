@@ -26,12 +26,10 @@ export default {
 <style lang="scss">
 
 .wrapper-box {
-  // background: #FAFAFA;
-  // box-shadow: 15px 15px 20px lightgray;
   display: grid;
   padding: 20px;
-  width: auto;
   min-height: 80vh;
+  max-height: 80vh;
   grid-template-areas: 
   "iface";
 }
@@ -39,7 +37,18 @@ export default {
 .main-content {
   grid-area: iface;
   display: grid;
+  grid-template-columns: 53% 47%;
+}
+
+@media (max-width: 900px) { 
+  .main-content {
+  grid-area: iface;
+  display: grid;
+  background: red;
+  box-shadow: 15px 15px 20px lightgray;
+  grid-template-rows: auto auto auto auto;
   grid-template-columns: 100%;
+  }
 }
 
 .details {

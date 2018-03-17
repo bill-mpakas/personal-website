@@ -10,12 +10,41 @@ body {
 }
 
 p {
-  line-height: 1.8;
   text-rendering: optimizeLegibility;
 }
 
 img {
   max-width: 100%;
+}
+
+/**
+  Single Project Section
+*/
+
+.project {
+  text-align: center;
+  &__title {
+    font-size: 1.4rem;
+    
+  }
+  &__description {
+    font-size: 1rem;
+  }
+}
+
+.description {
+
+  &__title {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+  &__content {
+    line-height: 1.8;
+    font-size: 1rem;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
 }
 
 .btn {
