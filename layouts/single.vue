@@ -1,11 +1,9 @@
 <template>
   <div id="app">
-    <div class="wrapper">
       <navbar></navbar>
       <transition name="fade" mode="out-in">
           <nuxt />
       </transition>
-    </div>
   </div>
 </template>
 
@@ -24,20 +22,10 @@ export default {
 </style>
 
 <style lang="scss">
-  .main-content {
-    grid-area: iface;
-    width: 90vw;
-    height: 80vh;
-    background: #FAFAFA;
-    box-shadow: 15px 15px 20px lightgray;
+
+  #app {
     display: grid;
-    grid-template-rows: 10% auto;
-    grid-template-areas:
-    "title"
-    "projects"
+    grid-template-rows: 500px auto;
   }
-
-
 </style>
-
 

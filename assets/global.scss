@@ -9,6 +9,24 @@ body {
   color: rgba(0,0,0,0.7);
 }
 
+#app {
+  display: grid;
+  grid-template-rows: 5vh 85vh 5vh;
+  grid-template-areas:
+  "navbar"
+  "main"
+  "footer";
+  border: 2px solid red;
+
+  @media screen and (max-width: 680px) {
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 100%;
+    }
+
+
+}
+
 p {
   text-rendering: optimizeLegibility;
 }

@@ -15,7 +15,7 @@
         </p>
         <div class="tech">
           <h3 class="description__title">Technologies Used</h3>
-          <div class="tech__logos">
+          <!-- <div class="tech__logos">
             <img src="~/assets/icons/html.svg" alt="html5">
             <img src="~/assets/icons/css.svg" alt="html5">
             <img src="~/assets/icons/javascript.svg" alt="html5">
@@ -23,7 +23,7 @@
             <img src="~/assets/icons/gulp.svg" alt="html5">
             <img src="~/assets/icons/npm.svg" alt="html5">
             <img src="~/assets/icons/git.svg" alt="html5">
-          </div>
+          </div> -->
         </div>
         <div class="cta">
           <a target="_blank" class="btn btn--white" href="https://bill-mpakas.github.io/travel-site/">View Project</a>
@@ -36,99 +36,17 @@
   </div>
 </template>
 
-<style lang="scss" scoped>
+<script>
+export default {
+  layout: 'single',
+}
+</script>
 
+
+<style lang="scss" scoped>
 
   $page_color: #625B7E;
 
-  .main-content {
-  grid-area: iface;
-  background: #FAFAFA;
-  box-shadow: 15px 15px 20px lightgray;
-  display: grid;
-  grid-template-rows: 15% 85%;
-  grid-template-columns: 50% 50%;
-  grid-template-areas:
-  "title details"
-  "description details"
-}
-
-@media (max-width: 900px) { 
-  .main-content {
-  grid-template-rows: auto auto auto;
-  grid-template-columns: 100%;
-  grid-template-areas:
-  "title"
-  "details"
-  "description"
-}
- }
-
- .arrow {
-   position: absolute;
-   left: 48.8%;
-
-   @media (max-width: 900px) { 
-     
-   }
- }
-
- .arrow-down {
-   display: block;
-   bottom: 7.5%;
-   @media (max-width: 900px) { 
-    bottom: 0;
-   }
- }
-
- .arrow-up {
-   display: block;
-   top: 7.5%;
-
-   @media (max-width: 900px) { 
-    top: 0;
-   }
- }
-
-h1 {
-  color: $page_color !important;
-}
-
-.project {
-  grid-area: title;
-}
-
-.description {
-  grid-area: description; 
-}
-
-.details {
-  grid-area: details;
-  background-color: $page_color;
-}
-
-.tech {
-
-  &__logos {
-    
-    display: grid;
-    grid-gap: 40px;
-    grid-template-columns: repeat(auto-fit, minmax(15px,30px));
-    justify-content: center;
-  }
-}
-.cta {
-  padding-top: 30px;
-  text-align: center;
-}
-
+  
 
 </style>
-
-
-
-
-
-<script>
-
-</script>
