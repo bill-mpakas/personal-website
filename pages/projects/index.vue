@@ -1,79 +1,80 @@
 <template>
-  <div class="wrapper-box">
     <div class="main-content">
-      <div class="projects__title">
-        <h1>My Projects</h1>
+      <div class="card">
+        <div class="card__img">
+          <img src="~/assets/images/thumbnails/travel-site.png" alt="">
+        </div>
+        <h3 class="card__title">Travel Site</h3>
+        <h4 class="card__tech">View Project</h4>
       </div>
-      <div class="projects__cards">
-        <div class="card">
-           <span class="icon">🌮</span>
-          <h3>Tacos</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.</p>
-          <nuxt-link class="btn btn--white" to="projects/travel-site">View Project</nuxt-link>
+       <div class="card">
+        <div class="card__img">
+          hello
         </div>
-        <div class="card">
-          <span class="icon">🍺</span>
-          <h3>Beer</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.</p>
+        <div class="card__title">
+          bill
         </div>
-        <div class="card">
-          <span class="icon">🍷</span>
-          <h3>Wine</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.</p>
+        <div class="card__button">
+          button
         </div>
-        <div class="card">
-          <span class="icon">🎵</span>
-          <h3>Music</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.</p> 
+      </div>
+       <div class="card">
+        <div class="card__img">
+          hello
         </div>
-        <div class="card">
-           <span class="icon">🌮</span>
-          <h3>Tacos</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.</p>
+        <div class="card__title">
+          bill
         </div>
-        <div class="card">
-           <span class="icon">🌮</span>
-          <h3>Tacos</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.</p>
+        <div class="card__button">
+          button
         </div>
       </div>
     </div>
-  </div>
 </template>
 
 <style lang="scss" scoped>
-  $page_color: #625B7E;
+  $page_color: #2B9CF2;
 
   .main-content {
-    grid-area: iface;
-    box-shadow: 15px 15px 20px lightgray;
     display: grid;
-    grid-template-rows: 10% auto;
-    grid-template-areas: 
-    "title"
-    "projects"
-  }
+    grid-gap: 30px;
+    padding: 30px;
+    justify-items: center;
+    grid-template-rows: repeat(auto-fill, minmax(min-content, 200px));
+    grid-template-columns: repeat(auto-fill, minmax(min-content, 300px));
 
-  .projects__title {
-    grid-area: title;
-    text-align: center;
-  }
+    @media screen and (max-width: 700px) {
+        display: block;
+      }
 
-  .projects__cards {
-    grid-area: projects;
-    display: grid;
-    padding: 20px;
-    grid-gap: 20px;
-    grid-template-rows: repeat(auto-fill, minmax(200px, 1fr));
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   }
 
   .card {
     background: white;
-    border: 1px solid white;
-    text-align: center;
+    border: 1px solid red;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-rows:auto 10% 20%;
+    grid-template-columns: 100%;
+    justify-items: center;
+
+    &__img {
+      border: 1px solid blue;
+    }
+
+    &__title {
+    }
+
+    &__tech {
+      
+    }
   }
+
+
+
+
+
+  
 
 </style>
 
@@ -81,6 +82,6 @@
 
 <script>
   export default {
-  
-}
+  layout: 'projects'
+  }
 </script>

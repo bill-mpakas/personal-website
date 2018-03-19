@@ -35,8 +35,11 @@ export default {
   .box {
     grid-area:main;
     display: grid;
+    height: 90%;
+    width:90%;
     grid-template-columns: 100%;
-    border: 2px solid blue;
+    border: 1px solid blue;
+    box-shadow: 15px 15px 20px lightgray;
 
     @media screen and (max-width: 680px) {
     display: block;
@@ -44,6 +47,8 @@ export default {
     grid-template-columns: 100%;
     }
   }
+
+  
 
 
 </style>

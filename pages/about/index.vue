@@ -91,7 +91,7 @@
     display: grid;
     grid-template-columns: 50% 50%;
 
-    @media screen and (max-width: 700px) {
+    @media screen and (max-width: 800px) {
         display: block;
       }
 
@@ -136,7 +136,7 @@
     &__main {
     line-height: 1.8;
     text-align: left;
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     padding: 0 30px 0 30px;
     }
 

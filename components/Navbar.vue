@@ -12,12 +12,11 @@
 <style lang="scss" scoped>
   .menu ul {
     display: grid;
-    align-items: center;      /* new */
-    justify-items: center;
+    justify-items: start;
     list-style: none;
     grid-gap: 20px;
     grid-auto-columns: auto;
-    grid-template-columns: repeat(auto-fill, minmax(40px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(40px, auto));
     a {
       display: block;
       text-decoration: none;

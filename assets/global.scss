@@ -13,6 +13,8 @@ body {
 
 #app {
   display: grid;
+  justify-items: center;
+  align-items: center;
   grid-template-rows: 5vh 85vh 5vh;
   grid-template-areas:
   "navbar"
@@ -20,10 +22,8 @@ body {
   "footer";
   border: 2px solid red;
 
-  @media screen and (max-width: 680px) {
-    display: grid;
-    grid-template-rows: 100%;
-    grid-template-columns: 100%;
+  @media screen and (max-width: 800px) {
+    display: block;
     }
 
 

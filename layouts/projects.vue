@@ -36,8 +36,7 @@ export default {
     grid-area:main;
     display: grid;
     grid-template-columns: 100%;
-    border: 1px solid blue;
-    box-shadow: 15px 15px 20px lightgray;
+    border: 2px solid blue;
 
     @media screen and (max-width: 680px) {
     display: block;
