@@ -9,10 +9,14 @@
     </nav>
 </template>
 
-<style lang="scss" scoped>
+<style lang="scss">
+
+  .menu {
+    grid-area: navbar;
+    
+  }
   .menu ul {
     display: grid;
-    justify-items: start;
     list-style: none;
     grid-gap: 20px;
     grid-auto-columns: auto;

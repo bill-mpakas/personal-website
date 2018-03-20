@@ -24,7 +24,7 @@
               </div>
           </div>
           <div class="bio">
-          <h3 class="bio__intro">My Journey</h3>
+          <h3 class="bio__intro">About me</h3>
           <p class="bio__main">
             When I was young I had this dream about becoming a pro skateboarder. 
             I was the first to be at the skate park every day and the last to leave. 
@@ -38,34 +38,34 @@
           </div>
       </div>
       <div class="right-content">
-         <div class="skills">
-           <h2 class="skills_title">What I do</h2>
-         </div>
+        <div class="skills">
+          <h2 class="skills__title">What I do</h2>
+        </div> 
          <div class="skills-card">
            <div class="card">
               <span class="card__icon">
-                <img src="~/assets/icons/design.svg" height="60px" alt="">
+                <img src="~/assets/icons/design.svg" height="50px" alt="">
               </span>
               <h3 class="card__title">Design</h3>
               <p class="card__description">I love to design layouts for the web.</p>
             </div>
             <div class="card">
               <span class="card__icon">
-                <img src="~/assets/icons/idea.svg" height="60px" alt="">
+                <img src="~/assets/icons/idea.svg" height="50px" alt="">
               </span>
               <h3 class="card__title">Web Development</h3>
               <p class="card__description">Getting these designs into a working interface, excites me.</p>
             </div>
             <div class="card">
               <span class="card__icon">
-                <img src="~/assets/icons/wordpress-skill.svg" alt="" height="60px">
+                <img src="~/assets/icons/wordpress-skill.svg" height="50px" alt="">
               </span>
               <h3 class="card__title">Wordpress</h3>
-              <p class="card__description">Wordpress powers up the 30% of the web. <br> I also love it</p>
+              <p class="card__description">Wordpress powers up the 30% of the web. <br> I also love it.</p>
             </div>
             <div class="card">
               <span class="card__icon">
-                <img src="~/assets/icons/search.svg" alt="" height="60px">
+                <img src="~/assets/icons/search.svg" height="50px" alt="">
               </span>
               <h3 class="card__title">Digital Marketing</h3>
               <p class="card__description">Reach new customers using smart, digital strategies.</p>
@@ -99,7 +99,8 @@
 
   .left-content {
     display: grid;
-    grid-template-rows: auto 50% auto;
+    justify-items: center;
+    grid-template-rows: auto auto auto;
     grid-template-areas:
     "avatar"
     "bio"
@@ -109,16 +110,21 @@
   .avatar {
     grid-area: avatar;
     display: grid;
+    grid-gap: 1rem;
+    grid-auto-columns: 100%;
+    grid-template-rows: auto min-content;
     align-items: center;      /* new */
-    justify-items: center;
     
     &__img {
-    height: 150px;
-    border-radius: 50%;
+    width: 150px;
+    border-radius: 3px;
+    // clip-path: polygon(0% 0%, 100% 3%, 98% 99%, 3 93%);
+    clip-path: polygon(4% 1%,99% 0,93% 97%,1% 100%);
   }
 
     &__social {
       text-align: center;
+      align-self: start;
 
       svg {
         padding-right: 10px;
@@ -128,16 +134,20 @@
 
   .bio {
     grid-area: bio;
+    display: grid;
+    grid-template-rows: min-content min-content;
+    justify-items: center;
 
     &__intro {
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     }
     &__main {
     line-height: 1.8;
     text-align: left;
     font-size: 0.9rem;
     padding: 0 30px 0 30px;
+    max-width: 75%;
     }
 
   }
@@ -155,24 +165,27 @@
   // Right Content
 
   .right-content {
-    background-color: #FAFAFA;
+    
     display: grid;
-    grid-template-rows: auto 1fr;
+    align-self: center;
+    grid-template-rows: min-content 1fr;
+    
   }
 
   .skills {
-    align-self: center;
     justify-self: center;
+    &__title {
+     
+    }
   }
 
   .skills-card {
     display: grid;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     grid-gap: 20px;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
-    align-self: center;
     
   }
 
@@ -182,17 +195,11 @@
     text-align: center;
     padding-top: 10px;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
-
-    &__icon {
-      background: url('~/assets/icons/wordpress.svg');
-    }
-
     &__title {
 
     }
 
     &__description {
-      padding: 10px;
     }
   }
 

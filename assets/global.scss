@@ -13,9 +13,7 @@ body {
 
 #app {
   display: grid;
-  justify-items: center;
-  align-items: center;
-  grid-template-rows: 5vh 85vh 5vh;
+  grid-template-rows: auto 90vh auto;
   grid-template-areas:
   "navbar"
   "main"

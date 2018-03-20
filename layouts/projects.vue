@@ -29,14 +29,18 @@ export default {
 // override if i want the main container
   #app {
 
-
   }
 
   .box {
     grid-area:main;
     display: grid;
-    grid-template-columns: 100%;
-    border: 2px solid blue;
+    width:90%;
+    align-self: center;
+    justify-self:center;
+    height: 90%;
+    grid-template-rows: repeat(auto-fill, minmax(150px,300px));
+    border: 0.5px solid lightgrey;
+    box-shadow: 15px 15px 20px lightgray;
 
     @media screen and (max-width: 680px) {
     display: block;
@@ -44,6 +48,8 @@ export default {
     grid-template-columns: 100%;
     }
   }
+
+  
 
 
 </style>
