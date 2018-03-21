@@ -4,8 +4,8 @@
         <div class="card__img">
           <img src="~/assets/images/thumbnails/travel-site.png" alt="">
         </div>
-        <h3 class="card__title">Travel Site</h3>
-        <h4 class="card__tech">View Project</h4>
+        <span class="card__title">Travel Site</span>
+        <span class="card__tech">View Project</span>
       </div>
        <div class="card">
         <div class="card__img">
@@ -41,7 +41,7 @@
     padding: 30px;
     justify-items: center;
     grid-template-rows: repeat(auto-fill, minmax(min-content, 200px));
-    grid-template-columns: repeat(auto-fill, minmax(min-content, 300px));
+    grid-template-columns: repeat(auto-fill, minmax(min-content, 220px));
 
     @media screen and (max-width: 700px) {
         display: block;
@@ -54,7 +54,6 @@
     border: 1px solid red;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
     display: grid;
-    grid-template-rows:auto 10% 20%;
     grid-template-columns: 100%;
     justify-items: center;
 

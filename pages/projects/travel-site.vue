@@ -29,7 +29,7 @@ Up until now, i refer to this particular project because it breaks down the work
         </div>
       </div>
       <div class="right-content">
-
+        <img src="~/assets/images/mb-pro.svg" alt="">
       </div>
     </div>
 </template>
@@ -39,6 +39,8 @@ export default {
   
 }
 </script>
+
+
 
 
 <style lang="scss" scoped>
@@ -110,11 +112,15 @@ export default {
 
   .right-content {
     background-color: yellow;
+    
   }
 
   
 
 </style>
+
+
+
 
 
 <!-- <div class="tech__logos">

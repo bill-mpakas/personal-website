@@ -39,8 +39,7 @@ export default {
     justify-self:center;
     height: 90%;
     grid-template-rows: repeat(auto-fill, minmax(150px,300px));
-    border: 0.5px solid lightgrey;
-    box-shadow: 15px 15px 20px lightgray;
+    box-shadow: 10px 10px 20px lightgray;
 
     @media screen and (max-width: 680px) {
     display: block;
