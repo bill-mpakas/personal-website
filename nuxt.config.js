@@ -7,6 +7,7 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { name: 'google-site-verification', content: 'C6neg6uaViHbuMhOhBoJsxXnEZoCt3H4S51n0HHp2jA' },
       { hid: 'description', name: 'description', content: 'My Personal Website using Vue and Nuxt' }
     ],
     link: [
