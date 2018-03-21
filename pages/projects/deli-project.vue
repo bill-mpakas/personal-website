@@ -2,23 +2,22 @@
     <div class="main-content">
       <div class="left-content">
         <div class="project-title">
-          <h2>Travel Site</h2>
-          <p class="project-title__type">PSD to HTML</p>
+          <h2>Deli Project</h2>
+          <p class="project-title__type">Web App</p>
         </div>
         <div class="project-description">
           <article class="project-description__content">
-            This was my first web development project back in 2016. I found about an awesome course on Udemy called “Git a developer Job”  by the instructor Brad Schiff. 
-This course introduced me to many industry standard technologies such as npm, GIT, ES6, Sass, PostCSS, Gulp and Node helping me grasp a better understanding of the modern web development workflow. 
-Up until now, i refer to this particular project because it breaks down the workflow of building a website in a nice and structured way. 
+            A complete project i worked on while learning from “Learn Node”, a course designed by Wes Bos. This premium training course has a focus on modern Javascript and building a real world application using Node.js as the backend. I really believe that nowadays pursuing whatever interests you from a Javascript Angle is highly valuable and that’s because Javascript is ubiquitous. 
+            As an entry front-end developer, i am planning to improve the UI of the application and share it with friends!
           </article>
           <div class="project-description__tech">
             <h3>Technologies Used</h3>
             <div class="logos">
-              <img src="~/assets/icons/html.svg" alt="html5">
-              <img src="~/assets/icons/css.svg" alt="html5">
+              <img src="~/assets/icons/nodejs.svg" alt="html5">
               <img src="~/assets/icons/javascript.svg" alt="html5">
-              <img src="~/assets/icons/postcss.svg" alt="html5">
-              <img src="~/assets/icons/gulp.svg" alt="html5">
+              <img src="~/assets/icons/pug.svg" alt="html5">
+              <img src="~/assets/icons/sass.svg" alt="html5">
+              <img src="~/assets/icons/heroku.svg" alt="html5">
               <img src="~/assets/icons/npm.svg" alt="html5">
               <img src="~/assets/icons/git.svg" alt="html5">
             </div>

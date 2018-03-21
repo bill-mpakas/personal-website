@@ -200,6 +200,7 @@
     }
 
     &__description {
+      font-size: 0.8rem;
     }
   }
 

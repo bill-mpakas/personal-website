@@ -39,8 +39,8 @@ export default {
     justify-self:center;
     height: 90%;
     grid-template-columns: 100%;
-    border: 0.5px solid lightgrey;
-    box-shadow: 15px 15px 20px lightgray;
+    // border: 0.5px solid lightgrey;
+    box-shadow: 10px 10px 10px lightgray;
 
     @media screen and (max-width: 680px) {
     display: block;
