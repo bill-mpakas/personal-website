@@ -2,11 +2,13 @@
   <div id="app">
       <navbar></navbar>
       <div class="box">
-        <transition name="fade" mode="out-in">
-            <nuxt />
-        </transition>
+        <transition>
+          <nuxt /> 
+        </transition> 
       </div>
-      <!-- <footer></footer> -->
+      <ul class="footer">
+        <p>Made with ❤️ in Thessaloniki</p>
+      </ul>
   </div>
 </template>
 
@@ -15,10 +17,9 @@
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 export default {
-  // middleware: 'log',
   components: {
     Navbar,Footer
-  }
+  },
 }
 </script>
 
