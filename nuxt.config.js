@@ -22,6 +22,16 @@ module.exports = {
   ** Build configuration
   */
 
+  /*
+  ** Nuxt.js modules
+  */
+ modules: [
+  [
+    "storyblok-nuxt", 
+    { accessToken: "sznQxojAVZdE7lR3zDw0OAtt", cacheProvider: "memory" }
+  ]
+ ],
+
   build: {
     /*
     ** Run ESLint on save

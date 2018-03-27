@@ -1,6 +1,6 @@
 <template>
     <div class="main-content">
-      <div class="left-content">
+     <div class="left-content">
           <div class="avatar">
             <img src="~/assets/images/profile_pic.png" alt="" class="avatar__img">
             <div class="avatar__social">
@@ -74,6 +74,22 @@
       </div>
     </div>
 </template>
+
+<script>
+// export default {
+//   asyncData(context) {
+//     return context.app.$storyapi.get('cdn/stories/about' , {
+//       version: 'draft'
+//     }).then(res => {
+//       return {
+//         title: res.data.story.content.title,
+//         content: res.data.story.content.content
+//       }
+//     })
+//   }
+// }
+</script>
+
 
 <style lang="scss" scoped>
   $page_color: #625B7E;
@@ -210,11 +226,3 @@
 
 
 </style>
-
-
-
-
-
-<script>
-
-</script>
