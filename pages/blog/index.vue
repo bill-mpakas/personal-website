@@ -1,12 +1,13 @@
 <template>
     <div class="main-content">
-    <Post-preview
+    <!-- <Post-preview
       v-for="post in posts"
       :key="post.id"
       :title="post.title"
       :excerpt="post.previewText"
       :thumbnailImage="post.thumbnailUrl"
-      :id="post.id" />
+      :id="post.id" /> -->
+      <h1>Writing Blogs Loading..</h1>
     </div>
 </template>
 
@@ -15,6 +16,8 @@
 
   .main-content {
     display: flex;
+    justify-content: center;
+    align-items: center;
     
     // grid-template-rows: repeat(minmax(200px,300px));
     overflow: scroll;
@@ -29,29 +32,29 @@
 
 
 <script>
-import PostPreview from "@/components/Blog/PostPreview";
-  export default {
-    components: {
-      PostPreview
-    },
-    asyncData(context) {
-      return context.app.$storyapi
-      .get("cdn/stories/", {
-        version: "draft",
-        starts_with: "blog/"
-      })
-      .then(res => {
-        return {
-          posts: res.data.stories.map(bp => {
-          return {
-            id: bp.slug,
-            title: bp.content.title,
-            previewText: bp.content.summary,
-            thumbnailUrl: bp.content.thumbnail
-          };
-        })
-        };
-      });
-    }
-  };
+// import PostPreview from "@/components/Blog/PostPreview";
+//   export default {
+//     components: {
+//       PostPreview
+//     },
+//     asyncData(context) {
+//       return context.app.$storyapi
+//       .get("cdn/stories/", {
+//         version: "draft",
+//         starts_with: "blog/"
+//       })
+//       .then(res => {
+//         return {
+//           posts: res.data.stories.map(bp => {
+//           return {
+//             id: bp.slug,
+//             title: bp.content.title,
+//             previewText: bp.content.summary,
+//             thumbnailUrl: bp.content.thumbnail
+//           };
+//         })
+//         };
+//       });
+//     }
+//   };
 </script>
