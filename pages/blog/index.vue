@@ -17,7 +17,6 @@
     display: flex;
     
     // grid-template-rows: repeat(minmax(200px,300px));
-    overflow: scroll;
 
     @media screen and (max-width: 800px) {
        display: block;

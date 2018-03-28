@@ -107,8 +107,9 @@
     display: grid;
     grid-template-columns: 50% 50%;
 
-    @media screen and (max-width: 800px) {
-        display: block;
+    @media screen and (max-width: 48rem) {
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto;
       }
 
   }
@@ -202,6 +203,11 @@
     grid-gap: 20px;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
+
+    @media screen and (max-width: 48rem) {
+      display: block;
+      padding: 0;
+    }
     
   }
 
