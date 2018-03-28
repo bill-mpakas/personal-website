@@ -56,18 +56,18 @@ img {
 }
 
 .arrow {
-  
-  width: 30px;
+  position: absolute;
+  width: 35px;
 }
 
 .arrow-down {
-  @media (max-width: 900px) { 
-    top: 0;
-   }
+  top: 98%;
+  left: 48.5%;
 }
 
 .arrow-up {
-
+  top: -10px;
+  left: 48.5%;
 }
 
 /**
@@ -121,51 +121,51 @@ img {
 
 
 
-// .slideUp {
-//   animation: slideUpAnim 3s forwards;
-//   opacity: 0;
-// }
+.slideUp {
+  animation: slideUpAnim 3s forwards;
+  opacity: 0;
+}
 
-// @keyframes slideUpAnim {
-//   from {
-//     opacity: 0;
-//     transform: translateY(100px);
-//   }
-//   to {
-//     opacity: 100;
-//     transform: translateY(0);
-//   }
-// }
+@keyframes slideUpAnim {
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  to {
+    opacity: 100;
+    transform: translateY(0);
+  }
+}
 
-// .fade-enter-active {
-//   animation: slidePageIn 1.5s forwards;
-//   animation-timing-function: cubic-bezier(.8, -0.49, .36, 1);
-// }
+.fade-enter-active {
+  animation: slidePageIn 1.5s forwards;
+  animation-timing-function: cubic-bezier(.8, -0.49, .36, 1);
+}
 
-// .fade-leave-active {
-//   animation: slidePageDown 1.5s forwards;
-//   animation-timing-function: cubic-bezier(.8, -0.49, .36, 1);
-// }
+.fade-leave-active {
+  animation: slidePageDown 1.5s forwards;
+  animation-timing-function: cubic-bezier(.8, -0.49, .36, 1);
+}
 
-// @keyframes slidePageIn {
-//   from {
-//     opacity: 0;
-//     transform: translateY(-100%);
-//   }
-//   to {
-//     opacity: 1;
-//     transform: translateY(0%);
-//   }
-// }
+@keyframes slidePageIn {
+  from {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
 
-// @keyframes slidePageDown {
-//   from {
-//     opacity: 1;
-//   }
-//   to {
-//     opacity: 0;
-//     transform: translateY(0%);
-//   }
-// }
+@keyframes slidePageDown {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    transform: translateY(0%);
+  }
+}
 
 

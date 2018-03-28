@@ -1,5 +1,6 @@
 <template>
     <div class="main-content">
+      <img src="~assets/images/arrow-up.svg" class="arrow arrow-up">
       <div class="left-content">
         <div class="project-title">
           <h2>Travel Site</h2>
@@ -39,6 +40,7 @@ Up until now, i refer to this particular project because it breaks down the work
             </div>
             </div>
         </div>
+        <nuxt-link to="/projects/coffeeshop"><img src="~assets/images/arrow-down.svg" class="arrow arrow-down"></nuxt-link>
       </div>
     
 </template>
@@ -59,10 +61,13 @@ export default {
 
   .main-content {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    position: relative;
+    grid-template-columns: 50% 50%;
 
 
   }
+
+  
 
   .left-content {
     display: grid;
