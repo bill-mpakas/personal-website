@@ -1,6 +1,6 @@
 <template>
     <div class="main-content">
-      <img src="~assets/images/arrow-up.svg" class="arrow arrow-up">
+      
       <div class="left-content">
         <div class="project-title">
           <h2>Travel Site</h2>
@@ -63,8 +63,11 @@ export default {
     display: grid;
     position: relative;
     grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr min-content;
 
-
+   a {
+     display: inline-block;
+   }
   }
 
   

@@ -7,7 +7,7 @@
         </transition> 
       </div>
       <ul class="footer">
-        <p>Made with ❤️ in Thessaloniki</p>
+        <p class="footer__content">Made with ❤️ in Thessaloniki</p>
       </ul>
   </div>
 </template>

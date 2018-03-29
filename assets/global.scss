@@ -1,7 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@font-face {
+  font-family: "Monosten";
+  src: url("~assets/fonts/Monosten-A-webfont.ttf");
+}
 
 body, html {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Monosten', sans-serif;
 }
 
 body {
@@ -45,6 +48,10 @@ body {
     justify-content: center;
     align-items: center;
     height: 100%;
+
+    &__content {
+      font-size: 0.85rem;
+    }
 }
 
 p {

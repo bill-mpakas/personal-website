@@ -54,7 +54,7 @@
 
     &__heading {
       font-size: 3rem;
-
+      font-weight: 900;
       @media screen and (max-width: 85.375em) {
         font-size: 2.1rem;
       }
@@ -65,8 +65,10 @@
     }
 
     &__text {
-      font-size: 1.2rem;
-
+      font-size: 1rem;
+      font-weight: 400;
+      color: rgba(0,0,0,0.6);
+      -webkit-font-smoothing: antialiased;
       @media screen and (max-width: 85.375em) {
         font-size: 1rem;
       }
