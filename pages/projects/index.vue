@@ -1,32 +1,32 @@
 <template>
     <div class="main-content">
-      <div class="card">
-        <div class="card__img">
-          <img src="~/assets/images/thumbnails/travel-site.png" alt="">
+      <div class="left-content">
+        <div class="heading">
+          <h3>Curious Learning</h3>
         </div>
-        <span class="card__title">Travel Site</span>
-        <span class="card__tech">View Project</span>
-      </div>
-       <div class="card">
-        <div class="card__img">
-          hello
-        </div>
-        <div class="card__title">
-          bill
-        </div>
-        <div class="card__button">
-          button
+        <div class="projects">
+          <ul class="projects-list">
+            <li class="projects-list__item"><nuxt-link  to="projects/travel-site">Travel Site</nuxt-link></li>
+            <li class="projects-list__item">Deli-Project</li>
+            <li class="projects-list__item"></li>
+            <li class="projects-list__item"></li>
+            <li class="projects-list__item"></li>
+          </ul>
         </div>
       </div>
-       <div class="card">
-        <div class="card__img">
-          hello
+      <div class="right-content">
+        <div class="heading">
+          <h3>Work</h3>
         </div>
-        <div class="card__title">
-          bill
-        </div>
-        <div class="card__button">
-          button
+        <div class="projects">
+          <ul class="projects-list">
+            <li class="projects-list__item">Invited</li>
+            <li class="projects-list__item">Pellee Scarpa</li>
+            <li class="projects-list__item">Elke Uom</li>
+            <li class="projects-list__item">CuriousLearner</li>
+            <li class="projects-list__item"></li>
+            <li class="projects-list__item"></li>
+          </ul>
         </div>
       </div>
     </div>
@@ -37,11 +37,7 @@
 
   .main-content {
     display: grid;
-    grid-gap: 30px;
-    padding: 30px;
-    justify-items: center;
-    grid-template-rows: repeat(auto-fill, minmax(min-content, 200px));
-    grid-template-columns: repeat(auto-fill, minmax(min-content, 220px));
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 
     @media screen and (max-width: 700px) {
         display: block;
@@ -49,23 +45,41 @@
 
   }
 
-  .card {
-    background: white;
-    border: 1px solid red;
-    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+  .left-content {
     display: grid;
-    grid-template-columns: 100%;
-    justify-items: center;
+    grid-template-rows: 30% 70%;
+    background-color: #FAFAFA;
+  }
+  .right-content {
+    display: grid;
+    grid-template-rows: 30% 70%;
+    background-color: #FAFAFA;
+  }
 
-    &__img {
-      border: 1px solid blue;
-    }
+  .heading {
+    justify-self: center;
+    font-size: 1.9em;
+    align-self: center;
+  }
 
-    &__title {
-    }
+  .projects {
+      justify-self: center;
+      align-self: start;
+  }
 
-    &__tech {
-      
+  .projects-list {
+    list-style: none;
+    padding: 20px 0;
+    
+    &__item {
+      padding: 10px 0;
+      text-decoration: none;
+      font-size: 1.8em;
+
+      a {
+        text-decoration: none;
+        color: rgba(0,0,0,0.7);
+      }
     }
   }
 
