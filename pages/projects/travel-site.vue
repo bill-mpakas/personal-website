@@ -28,14 +28,28 @@ Up until now, i refer to this particular project because it breaks down the work
           <a class="btn btn--blue" href="">View Project</a>
         </div>
       </div>
-      <div class="right-content">
-        <img src="~/assets/images/mb-pro.svg" alt="">
+        <div class="right-content slideDown">
+            <div class="laptop">
+              <div data-ix="image-load" class="service-image no-margin-top" style="opacity: 1;transform: scaleX(1) scaleY(1) scaleZ(1) rotateX(0deg) rotateY(0deg) rotateZ(0deg);transition: opacity 400ms, transform 650ms cubic-bezier(0.77, 0, 0.175, 1);">
+              <div data-ix="screen-animation" class="laptop-screen" style="transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg); transform-style: preserve-3d; transition: transform 450ms;">
+                <div class="screen-container cro-case"></div>
+              </div>
+              <div class="laptop-base"></div>
+              </div>
+            </div>  
+            <div class="year">
+              <nuxt-link to="/projects/coffeeshop"><img src="~assets/images/arrow-down.svg" class="arrow arrow-down"></nuxt-link>
+            </div>
+        </div>
+
       </div>
-    </div>
+    
+    
 </template>
 
 <script>
 export default {
+  layout: 'single'
   
 }
 </script>
@@ -47,73 +61,13 @@ export default {
 
   $page_color: #625B7E;
 
-  .main-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-
-    @media screen and (max-width: 800px) {
-      
-    }
-  }
-
-  .left-content {
-    display: grid;
-    grid-template-rows: min-content 1fr min-content;
-  }
-
-  .project-title {
-    text-align: center;
-
-    &__type {
-      font-style: italic;
-    }
-  }
-
-  .project-description {
-    display: grid;
-    align-items: center;
-    grid-template-rows: 2fr 1fr ;
-
-    &__content {
-
-      @media screen and (min-width: 85.375em) {
-        font-size: 1.2rem;
-      }
-
-      padding: 0 20px 0 20px;
-      font-size: 1rem;
-      line-height: 1.8;
-    }
-
-    &__tech {
-      text-align: center;
-      
-      
-    }
-  }
-
-  .logos {
-    display: grid;
-    grid-gap: 2.5rem;
-    align-items: center;
-    justify-content: center;
-    grid-template-columns: repeat(auto-fit, minmax(min-content, 30px));
-
-    @media screen and (min-width: 85.375em) {
-        font-size: 1.2rem;
-        grid-template-columns: repeat(auto-fit, minmax(min-content, 35px));
-      }
-  }
-
-  .project-cta {
-    padding: 25px;
-    text-align: center;
-  }
-
   .right-content {
-    background-color: yellow;
-    
-  }
+    background-color: $page_color;
+}
+
+
+
+  
 
   
 
