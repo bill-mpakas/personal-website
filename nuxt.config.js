@@ -1,6 +1,7 @@
 const  axios = require("axios");
 
 module.exports = {
+  mode: 'universal',
   /*
   ** Headers of the page
   */
