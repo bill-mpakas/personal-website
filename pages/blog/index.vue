@@ -1,13 +1,13 @@
 <template>
     <div class="main-content">
-    <!-- <Post-preview
+    <Post-preview
       v-for="post in posts"
       :key="post.id"
       :title="post.title"
       :excerpt="post.previewText"
       :thumbnailImage="post.thumbnailUrl"
-      :id="post.id" /> -->
-      <h1>Writing Blogs Loading..</h1>
+      :id="post.id" />
+      <!-- <h1>Writing Blogs Loading..</h1> -->
     </div>
 </template>
 
