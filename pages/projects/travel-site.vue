@@ -15,12 +15,12 @@ Up until now, i refer to this particular project because it breaks down the work
             <h3>Technologies Used</h3>
             <div class="logos">
               <img src="~/assets/icons/html.svg" alt="html5">
-              <img src="~/assets/icons/css.svg" alt="html5">
-              <img src="~/assets/icons/javascript.svg" alt="html5">
-              <img src="~/assets/icons/postcss.svg" alt="html5">
-              <img src="~/assets/icons/gulp.svg" alt="html5">
-              <img src="~/assets/icons/npm.svg" alt="html5">
-              <img src="~/assets/icons/git.svg" alt="html5">
+              <img src="~/assets/icons/css.svg" alt="css">
+              <img src="~/assets/icons/javascript.svg" alt="javascript">
+              <img src="~/assets/icons/postcss.svg" alt="postcss">
+              <img src="~/assets/icons/gulp.svg" alt="gulp">
+              <img src="~/assets/icons/npm.svg" alt="npm">
+              <img src="~/assets/icons/git.svg" alt="git">
             </div>
           </div>
         </div>
@@ -72,17 +72,3 @@ export default {
   
 
 </style>
-
-
-
-
-
-<!-- <div class="tech__logos">
-            <img src="~/assets/icons/html.svg" alt="html5">
-            <img src="~/assets/icons/css.svg" alt="html5">
-            <img src="~/assets/icons/javascript.svg" alt="html5">
-            <img src="~/assets/icons/postcss.svg" alt="html5">
-            <img src="~/assets/icons/gulp.svg" alt="html5">
-            <img src="~/assets/icons/npm.svg" alt="html5">
-            <img src="~/assets/icons/git.svg" alt="html5">
-          </div> -->
