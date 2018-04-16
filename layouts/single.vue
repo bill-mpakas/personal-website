@@ -29,8 +29,6 @@ export default {
 <style lang="scss">
 // override if i want the main container
   #app {
-
-
     @media screen and (max-width: 48rem) {
     grid-template-columns: 100%;
     grid-template-rows: auto auto auto;
@@ -40,9 +38,28 @@ export default {
     "footer";
     }
 
+    @media screen and (max-width: 71.250em) {
+      display: grid;
+      grid-template-columns: auto;
+      grid-template-rows: auto auto auto;
+      grid-template-areas:
+      "navbar"
+      "main"
+      "footer";
+    }
+
+
+
   }
 
   .main-content {
+
+    @media screen and (max-width: 71.250em) {
+      display: grid;
+      grid-template-rows: auto auto auto;
+      grid-template-columns: auto;
+    }
+
     display: grid;
     grid-template-columns: 50% 50%;
   }
@@ -54,6 +71,11 @@ export default {
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: 80% 20%;
+
+    @media screen and (max-width: 71.250em) {
+      display: grid;
+      grid-template-columns: auto;
+    }
   }
 
   .project-description {
@@ -105,12 +127,12 @@ export default {
     height: 85vh;
     grid-template-columns: 100%;
     // border: 0.5px solid lightgrey;
-    box-shadow: 10px 10px 10px lightgray;
+    box-shadow: 5px 5px 5px lightgray;
 
     @media screen and (max-width: 48rem) {
       grid-template-columns: 100%;
-      height: auto;
-      width:100vw;
+      width: auto;
+      height: 100%;
     }
 
     
@@ -130,6 +152,10 @@ export default {
 }
 
 .laptop {
+  @media screen and (max-width: 480px) {
+      
+    }
+  padding: 20px;
   align-self: center;
   justify-self: center;
   
@@ -143,11 +169,20 @@ export default {
   background-size: cover;
   }
 .screen-container {
+
+  @media screen and (max-width: 480px) {
+      min-height: 130px;
+    }
   min-height: 230px;
   background-color: #fff;
 }
 
 .laptop-screen {
+
+  @media screen and (max-width: 480px) {
+      min-width: 300px;
+    }
+
   position: relative;
   width: 90%;
   min-width: 350px;
@@ -163,6 +198,10 @@ export default {
 }
 
 .laptop-base {
+
+  @media screen and (max-width: 480px) {
+      min-width: 206px;
+    }
   width: 100%;
   height: 12px;
   min-width: 480px;

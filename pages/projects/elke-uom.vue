@@ -2,27 +2,28 @@
     <div class="main-content">
       <div class="left-content">
         <div class="project-title">
-          <h2>Deli-Project</h2>
-          <p class="project-title__type">Web App</p>
+          <h2>Elke Uom</h2>
+          <p class="project-title__type">Custom Wordpress Development</p>
         </div>
         <div class="project-description">
           <article class="project-description__content">
-            A complete project i worked on while learning from “Learn Node”, a course designed by Wes Bos. This premium training course has a focus on modern Javascript and building a real world application using Node.js as the backend. I really believe that nowadays pursuing whatever interests you from a Javascript Angle is highly valuable and that’s because Javascript is ubiquitous. As an entry front-end developer, i am planning to improve the UI of the application and share it with friends!
+            I really like Wordpress. Wordpress is also popular. In fact 30% of all sites now run on WordPress. So, after taking many courses on Wordpress theme development, i was assigned to build the website for the research committee of my university. Our main focus was to store the data on the website well organized and easy to find. Therefore, we leverage the WP Rest Api for searching content on the website using Javascript and also many other awesome features wordpress offers such as Custom Taxonomies and Custom Fields.  
           </article>
           <div class="project-description__tech">
             <h3>Technologies Used</h3>
             <div class="logos">
-              <img src="~/assets/icons/nodejs.svg" alt="html5">
-              <img src="~/assets/icons/mongodb.svg" alt="mongodb">
+              <img src="~/assets/icons/html.svg" alt="html5">
+              <img src="~/assets/icons/css.svg" alt="css">
               <img src="~/assets/icons/javascript.svg" alt="javascript">
-              <img src="~/assets/icons/pug.svg" alt="pug">
-              <img src="~/assets/icons/sass.svg" alt="sass">
-              <img src="~/assets/icons/heroku.svg" alt="heroku">
+              <img src="~/assets/icons/wordpress.svg" alt="postcss">
+              <img src="~/assets/icons/sass.svg" alt="gulp">
+              <img src="~/assets/icons/npm.svg" alt="npm">
+              <img src="~/assets/icons/git.svg" alt="git">
             </div>
           </div>
         </div>
         <div class="project-cta">
-          <a class="btn btn--blue" href="elke-uom">Next Project</a>
+          <a class="btn btn--blue" href="coffeeshop">Next Project</a>
         </div>
         
       </div>
@@ -36,7 +37,7 @@
               </div>
             </div>
              <div class="year">
-               <a class="btn btn--custom" target="blank" href="https://deli-test-project.herokuapp.com/">View Project</a>
+               <a class="btn btn--custom" target="blank" href="https://elke.uom.gr/">View Project</a>
              </div>
         </div>
 
@@ -57,10 +58,10 @@ export default {
 
 <style lang="scss" scoped>
 
-  $page_color: #45b1e8;
+  $page_color: #173f58;
 
   .screen-container.cro-case {
-    background-image: url('~assets/images/mockups/deli-project.png');
+    background-image: url('~assets/images/mockups/elke-uom.png');
   }
 
   .right-content {

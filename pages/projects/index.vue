@@ -7,8 +7,8 @@
         <div class="projects">
           <ul class="projects-list">
             <li class="projects-list__item"><nuxt-link  to="projects/travel-site">Travel Site</nuxt-link></li>
-            <li class="projects-list__item">Deli-Project</li>
-            <li class="projects-list__item"></li>
+            <li class="projects-list__item"><nuxt-link  to="projects/coffeeshop">CoffeeShop</nuxt-link></li>
+            <li class="projects-list__item"><nuxt-link  to="projects/deli-project">Deli-Project</nuxt-link></li>
             <li class="projects-list__item"></li>
             <li class="projects-list__item"></li>
           </ul>
@@ -20,9 +20,9 @@
         </div>
         <div class="projects">
           <ul class="projects-list">
-            <li class="projects-list__item">Invited</li>
+            <li class="projects-list__item"><nuxt-link  to="projects/elke-uom">Elke Uom</nuxt-link></li>
+            <li class="projects-list__item"><nuxt-link  to="projects/invited">Invited</nuxt-link></li>
             <li class="projects-list__item">Pellee Scarpa</li>
-            <li class="projects-list__item">Elke Uom</li>
             <li class="projects-list__item">CuriousLearner</li>
             <li class="projects-list__item"></li>
             <li class="projects-list__item"></li>

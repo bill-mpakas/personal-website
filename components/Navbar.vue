@@ -14,7 +14,7 @@
     grid-area: navbar;
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding-top: 20px;
     display: flex;
     flex-direction: row;
     justify-content: center;

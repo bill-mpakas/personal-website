@@ -11,13 +11,12 @@
           <div class="bio">
           <h3 class="bio__intro">About me</h3>
           <p class="bio__main">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-            It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing 
-            Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            When I was young I had this dream about becoming a pro skateboarder. I was the first to be at the skate park every day and the last to leave. I would spend every day pushing myself to become better and better. 
+            Sadly, I didn’t manage to become a pro skateboarder, but what I did learn from skateboarding is the consistent work it takes to be good at something – knowledge I apply to the professional work I do now.
           </p>
           </div>
           <div class="cta">
-            <a class="btn btn--blue" href="">Download CV</a>
+            <a class="btn btn--blue" target="_blank" href="/assets/uploads/Bakas_Vasileios_CV_eng.pdf">Download CV</a>
             <nuxt-link class="btn btn--blue" to="projects">View Projects</nuxt-link>
           </div>
       </div>

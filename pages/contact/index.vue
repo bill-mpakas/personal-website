@@ -29,6 +29,13 @@
 </template>
 
 <style lang="sass" scoped>
+  .main-content 
+    display: grid
+    grid-template-rows: 10% 90%
+</style>
+
+
+<style lang="sass">
       
 $bg: white
 $text: black
@@ -39,10 +46,6 @@ $border: rgba(black,.3)
 $active: black
 $focus: black
 $error: red
-  
-.main-content 
-  display: grid
-  grid-template-rows: 10% 90%
     
 
 .contact-title 
