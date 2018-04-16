@@ -11,8 +11,7 @@
           <div class="bio">
           <h3 class="bio__intro">About me</h3>
           <p class="bio__main">
-            When I was young I had this dream about becoming a pro skateboarder. I was the first to be at the skate park every day and the last to leave. I would spend every day pushing myself to become better and better. 
-            Sadly, I didn’t manage to become a pro skateboarder, but what I did learn from skateboarding is the consistent work it takes to be good at something – knowledge I apply to the professional work I do now.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente exercitationem ex quia est aut et doloremque, consequatur facilis id tempora!
           </p>
           </div>
           <div class="cta">
