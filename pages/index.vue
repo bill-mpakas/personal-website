@@ -5,7 +5,7 @@
           <p class="hero__intro">
             Hey,there
           </p>
-          <h1 class="hero__heading">I'm Bill Bakas, <br> a designer &amp; developer</h1>
+          <h1 class="hero__heading">I'm Bill Bakas, <br> designer &amp; developer</h1>
           <p class="hero__text">I love to design and code user interfaces, iterate and create user-friendly products.</p>
         </div>
         <div class="cta">

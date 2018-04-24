@@ -22,7 +22,7 @@
           </div>
         </div>
         <div class="project-cta">
-          <a class="btn btn--blue" href="elke-uom">Next Project</a>
+          <a class="btn btn--blue" href="/projects/elke-uom">Next Project</a>
         </div>
         
       </div>

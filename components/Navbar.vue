@@ -4,7 +4,7 @@
           <li class="navigation-item"><nuxt-link to="/about">About</nuxt-link></li>
           <li class="navigation-item"><nuxt-link to="/projects">Projects</nuxt-link></li>
           <li class="navigation-item"><nuxt-link to="/contact">Contact</nuxt-link></li>
-          <li class="navigation-item"><nuxt-link to="/blog">Blog</nuxt-link></li>
+          <!-- <li class="navigation-item"><nuxt-link to="/blog">Blog</nuxt-link></li> -->
       </ul>
 </template>
 

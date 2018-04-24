@@ -23,7 +23,7 @@
           </div>
         </div>
         <div class="project-cta">
-          <a class="btn btn--blue" href="deli-project">Next Project</a>
+          <a class="btn btn--blue" href="/projects/deli-project">Next Project</a>
         </div>
         
       </div>
