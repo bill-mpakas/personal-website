@@ -182,7 +182,7 @@ export default {
 }
 
 .screen-container.cro-case {
-  background-image: url('~assets/images/thumbnails/travel-site-compressor.gif');
+  background-image: url('~assets/images/mockups/travel-site.jpg');
   background-position: center;
 }
 .screen-container.cro-case, .screen-container.email-case, .screen-container.fb-case, .screen-container.ppc-case, .screen-container.seo-case-study, .screen-container.web-design {

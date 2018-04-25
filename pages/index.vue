@@ -9,7 +9,7 @@
           <p class="hero__text">I love to design and code user interfaces, iterate and create user-friendly products.</p>
         </div>
         <div class="cta">
-         <nuxt-link class="btn btn--white" to="about/">More about me</nuxt-link>
+         <nuxt-link class="btn btn--blue" to="about/">More about me</nuxt-link>
         </div>
       </div>
       <div class="right-content">

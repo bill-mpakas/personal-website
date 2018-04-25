@@ -2,7 +2,9 @@
     <div class="main-content">
      <div class="left-content">
           <div class="avatar">
-            <img src="~/assets/images/profile_pic.png" alt="" class="avatar__img">
+            <div class="avatar__img">
+              <img src="~/assets/images/profile_pic.jpg" alt="Profile-pic">
+            </div>
             <div class="avatar__social">
               <a href="https://www.linkedin.com/in/vasileios-bakas/" target="_blank"><img src="~/assets/icons/social/linkedin.svg" height="30px" width="30px" alt="linkedin"></a>
               <a href="https://twitter.com/bill_bakas" target="_blank"><img src="~/assets/icons/twitter.svg" height="30px" width="30px" alt="twitter"></a>
@@ -14,7 +16,8 @@
           <div class="bio">
             <h3 class="bio__intro">About me</h3>
             <p class="bio__main">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente exercitationem ex quia est aut et doloremque, consequatur facilis id tempora!
+              I am an aspiring designer/developer based in Thessaloniki. I graduated from the Department of Applied Informatics of University of Macedonia in 2015 and since then i focus on my passion designing and building digital products. 
+              I am huge fan of Marvel's films I also love to play basketball 🏀. 
             </p>
           </div>
           <div class="cta">
@@ -118,7 +121,7 @@
     align-items: center;      /* new */
     
     &__img {
-    width: 150px;
+    width: 170px;
     border-radius: 3px;
     // clip-path: polygon(0% 0%, 100% 3%, 98% 99%, 3 93%);
     clip-path: polygon(4% 1%,99% 0,93% 97%,1% 100%);

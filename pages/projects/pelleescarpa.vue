@@ -21,7 +21,7 @@
           </div>
         </div>
         <div class="project-cta">
-          <a class="btn btn--blue" href="/projects/coffeeshop">Next Project</a>
+          <a class="btn btn--blue" href="/projects/invited">Next Project</a>
         </div>
         
       </div>
@@ -35,7 +35,7 @@
               </div>
             </div>
              <div class="year">
-               <a class="btn btn--custom" target="blank" href="https://bill-mpakas.github.io/travel-site/">View Project</a>
+               <a class="btn btn--custom" target="blank" href="https://pelleescarpa.gr">View Project</a>
              </div>
         </div>
 
@@ -59,7 +59,7 @@ export default {
   $page_color: #625B7E;
 
   .screen-container.cro-case {
-    background-image: url('~assets/images/mockups/pelleescarpa.png');
+    background-image: url('~assets/images/mockups/pelleescarpa.gr.jpg');
   }
 
   .right-content {

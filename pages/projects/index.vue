@@ -21,7 +21,7 @@
         <div class="projects">
           <ul class="projects-list">
             <li class="projects-list__item"><nuxt-link  to="projects/elke-uom">Elke Uom</nuxt-link></li>
-            <li class="projects-list__item"><nuxt-link  to="projects/kodiko">Kodiko</nuxt-link></li>
+            <li class="projects-list__item"><nuxt-link  to="projects/kodiko">Kodiko.gr</nuxt-link></li>
             <li class="projects-list__item"><nuxt-link  to="projects/pelleescarpa">Pellee Scarpa</nuxt-link></li>
             <li class="projects-list__item"><nuxt-link  to="projects/invited">Invited</nuxt-link></li>
             <li class="projects-list__item"></li>

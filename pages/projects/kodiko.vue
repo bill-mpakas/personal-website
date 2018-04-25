@@ -7,7 +7,7 @@
         </div>
         <div class="project-description">
           <article class="project-description__content">
-            Kodiko.gr is the No1 free Legislation Search Engine in Greece. I was assigned to design the logo for the platform and also to design and code the landing page. The logo is presented here and the landing page is to be released soon.
+            Kodiko.gr is the No1 free Legislation Search Engine in Greece. I was assigned to design the logo for the platform and also to redesign and code the landing page. The logo is presented here and the landing page is to be released soon.
           </article>
           <div class="project-description__tech">
             <h3>Technologies Used</h3>
@@ -23,7 +23,7 @@
           </div>
         </div>
         <div class="project-cta">
-          <a class="btn btn--blue" href="coffeeshop">Next Project</a>
+          <a class="btn btn--blue" href="/projects/pelleescarpa">Next Project</a>
         </div>
         
       </div>

@@ -22,7 +22,7 @@
           </div>
         </div>
         <div class="project-cta">
-          <a class="btn btn--blue" href="/projects/elke-uom">Next Project</a>
+          <a class="btn btn--white" href="/projects/elke-uom">Next Project</a>
         </div>
         
       </div>
@@ -60,7 +60,7 @@ export default {
   $page_color: #45b1e8;
 
   .screen-container.cro-case {
-    background-image: url('~assets/images/mockups/deli-project.png');
+    background-image: url('~assets/images/mockups/deli-project.jpg');
   }
 
   .right-content {

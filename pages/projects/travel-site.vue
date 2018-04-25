@@ -25,7 +25,7 @@ Up until now, i refer to this particular project because it breaks down the work
           </div>
         </div>
         <div class="project-cta">
-          <a class="btn btn--blue" href="/projects/coffeeshop">Next Project</a>
+          <a class="btn btn--white" href="/projects/coffeeshop">Next Project</a>
         </div>
         
       </div>
@@ -63,7 +63,7 @@ export default {
   $page_color: #625B7E;
 
   .screen-container.cro-case {
-    background-image: url('~assets/images/thumbnails/travel-site-compressor.gif');
+    background-image: url('~assets/images/mockups/travel-site.jpg');
   }
 
   .right-content {
@@ -71,7 +71,6 @@ export default {
 }
 
 .btn {
-    
     &--custom {
       border: 1px solid #FAFAFA;
       background-color: $page_color;

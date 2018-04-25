@@ -15,7 +15,7 @@
               <img src="~/assets/icons/html.svg" alt="html5">
               <img src="~/assets/icons/css.svg" alt="css">
               <img src="~/assets/icons/javascript.svg" alt="javascript">
-              <img src="~/assets/icons/sketch.svg" alt="postcss">
+              <img src="~/assets/icons/sketch.svg" alt="sketch">
               <img src="~/assets/icons/laravel.svg" alt="gulp">
               <img src="~/assets/icons/npm.svg" alt="npm">
               <img src="~/assets/icons/git.svg" alt="git">
@@ -83,7 +83,8 @@ export default {
 .btn {
     
     &--custom {
-      border: 1px solid #FAFAFA;
+      font-size: 18px;
+      cursor: pointer;
       background-color: $page_color;
     }
   }

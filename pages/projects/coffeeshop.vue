@@ -23,7 +23,7 @@
           </div>
         </div>
         <div class="project-cta">
-          <a class="btn btn--blue" href="/projects/deli-project">Next Project</a>
+          <a class="btn btn--white" href="/projects/deli-project">Next Project</a>
         </div>
         
       </div>
@@ -61,7 +61,7 @@ export default {
   $page_color: #583520;
 
   .screen-container.cro-case {
-    background-image: url('~assets/images/mockups/coffee.png');
+    background-image: url('~assets/images/mockups/coffee.jpg');
   }
 
   .right-content {
