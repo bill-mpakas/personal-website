@@ -2,25 +2,21 @@
     <div class="main-content">
       <div class="left-content">
         <div class="project-title">
-          <h2>Travel Site</h2>
-          <p class="project-title__type">PSD to HTML</p>
+          <h2>Pelleescarpa.gr</h2>
+          <p class="project-title__type">Ecommerce Website</p>
         </div>
         <div class="project-description">
           <article class="project-description__content">
-            This was my first web development project back in 2016. I found about an awesome course on Udemy called “Git a developer Job”  by the instructor Brad Schiff. 
-This course introduced me to many industry standard technologies such as npm, GIT, ES6, Sass, PostCSS, Gulp and Node helping me grasp a better understanding of the modern web development workflow. 
-Up until now, i refer to this particular project because it breaks down the workflow of building a website in a nice and structured way. 
+            Eshop for a small business shoe store. Having a grasp of Wordpress, me and my colleague/partner Alexandros builded their Online Presence using Wordpress and WooCommerce. From Seo techniques to photography alognside with the 
+            development, we strongly believe that now is the time to for small businesses to focus on E-Commerce and that is the main reason we took on this challenge.
           </article>
           <div class="project-description__tech">
             <h3>Technologies Used</h3>
             <div class="logos">
-              <img src="~/assets/icons/html.svg" alt="html5">
+              <img src="~/assets/icons/wordpress.svg" alt="wordpress">
+              <img src="~/assets/icons/woocommerce.svg" alt="woocommerce">
+              <img src="~/assets/icons/html.svg" alt="html">
               <img src="~/assets/icons/css.svg" alt="css">
-              <img src="~/assets/icons/javascript.svg" alt="javascript">
-              <img src="~/assets/icons/postcss.svg" alt="postcss">
-              <img src="~/assets/icons/gulp.svg" alt="gulp">
-              <img src="~/assets/icons/npm.svg" alt="npm">
-              <img src="~/assets/icons/git.svg" alt="git">
             </div>
           </div>
         </div>

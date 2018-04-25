@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="2500" height="2500" viewBox="7.03 7.03 497.95 497.95">
+  <linearGradient id="a" gradientUnits="userSpaceOnUse" x1="-974.48" y1="1306.77" x2="-622.38" y2="1658.88" gradientTransform="translate(1054.43 -1226.83)">
+    <stop offset="0" stop-color="#2489be"/>
+    <stop offset="1" stop-color="#0575b3"/>
+  </linearGradient>
+  <path d="M256 7.03C118.5 7.03 7.03 118.48 7.03 256S118.48 504.98 256 504.98 504.98 393.5 504.98 256C504.98 118.5 393.5 7.03 256 7.03zm-66.43 369.34h-54.66v-176.6h54.66v176.6zm-27.59-199.74c-17.85 0-32.33-14.59-32.33-32.58 0-18 14.48-32.6 32.33-32.6s32.32 14.6 32.32 32.6-14.47 32.58-32.32 32.58zm232.45 199.74h-54.4v-92.7c0-25.43-9.66-39.62-29.76-39.62-21.88 0-33.31 14.78-33.31 39.61v92.7h-52.43v-176.6h52.42v23.79s15.78-29.18 53.22-29.18c37.45 0 64.26 22.87 64.26 70.17v111.83z" fill="url(#a)"/>
+</svg>

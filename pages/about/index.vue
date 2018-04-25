@@ -4,15 +4,18 @@
           <div class="avatar">
             <img src="~/assets/images/profile_pic.png" alt="" class="avatar__img">
             <div class="avatar__social">
-              <img src="~/assets/icons/twitter.svg" height="30px" width="30px" alt="">
-              <img src="~/assets/icons/facebook.svg" height="30px" width="30px" alt="">
+              <a href="https://www.linkedin.com/in/vasileios-bakas/" target="_blank"><img src="~/assets/icons/social/linkedin.svg" height="30px" width="30px" alt="linkedin"></a>
+              <a href="https://twitter.com/bill_bakas" target="_blank"><img src="~/assets/icons/twitter.svg" height="30px" width="30px" alt="twitter"></a>
+              <a href="https://www.facebook.com/vasilis.bakas" target="_blank"><img src="~/assets/icons/facebook.svg" height="30px" width="30px" alt="facebook"></a>
+              <a href="https://github.com/bill-mpakas" target="_blank"><img src="~/assets/icons/github.svg" height="30px" width="30px" alt="github"></a>
+              <a href="https://codepen.io/billlakos/" target="_blank"><img src="~/assets/icons/social/codepen.svg" height="30px" width="30px" alt="codepen"></a>
               </div>
           </div>
           <div class="bio">
-          <h3 class="bio__intro">About me</h3>
-          <p class="bio__main">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente exercitationem ex quia est aut et doloremque, consequatur facilis id tempora!
-          </p>
+            <h3 class="bio__intro">About me</h3>
+            <p class="bio__main">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente exercitationem ex quia est aut et doloremque, consequatur facilis id tempora!
+            </p>
           </div>
           <div class="cta">
             <a class="btn btn--blue" target="_blank" href="/assets/uploads/Bakas_Vasileios_CV_eng.pdf">Download CV</a>
@@ -22,32 +25,32 @@
       <div class="right-content">
         <div class="skills">
           <h2 class="skills__title">What I do</h2>
-        </div> 
+        </div>
          <div class="skills-card">
            <div class="card">
               <span class="card__icon">
-                <img src="~/assets/icons/design.svg" height="50px" alt="">
+                <img src="~/assets/icons/design.svg" height="60px" alt="">
               </span>
               <h3 class="card__title">Design</h3>
               <p class="card__description">I love to design layouts for the web.</p>
             </div>
             <div class="card">
               <span class="card__icon">
-                <img src="~/assets/icons/idea.svg" height="50px" alt="">
+                <img src="~/assets/icons/idea.svg" height="60px" alt="">
               </span>
               <h3 class="card__title">Web Development</h3>
               <p class="card__description">Getting these designs into a working interface, excites me.</p>
             </div>
             <div class="card">
               <span class="card__icon">
-                <img src="~/assets/icons/wordpress-skill.svg" height="50px" alt="">
+                <img src="~/assets/icons/wordpress-skill.svg" height="60px" alt="">
               </span>
               <h3 class="card__title">Wordpress</h3>
               <p class="card__description">Wordpress powers up the 30% of the web. <br> I also love it.</p>
             </div>
             <div class="card">
               <span class="card__icon">
-                <img src="~/assets/icons/search.svg" height="50px" alt="">
+                <img src="~/assets/icons/search.svg" height="60px" alt="">
               </span>
               <h3 class="card__title">Digital Marketing</h3>
               <p class="card__description">Reach new customers using smart, digital strategies.</p>
@@ -123,10 +126,10 @@
 
     &__social {
       text-align: center;
-      align-self: start;
-
-      svg {
-        padding-right: 10px;
+      display: flex;
+      justify-content: space-around;
+      a {
+        margin-right: 10px;
       }
     }
   }
@@ -165,31 +168,38 @@
 
   .right-content {
     display: grid;
-    grid-template-rows: 20% 65%;
+    grid-template-rows: 2fr 8fr;
     
   }
 
   .skills {
-    justify-self: center;
-    align-self: end;
+    display: flex;
+    justify-content: center;
+    align-self:end;
     &__title {
-      
+      text-align: center;
     }
   }
 
   .skills-card {
     display: grid;
-    align-self: center;
+    align-content: center;
     padding-left: 20px;
     padding-right: 20px;
-    grid-gap: 25px;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2,1fr);
 
     @media screen and (max-width: 48rem) {
       display: block;
       padding: 0;
     }
+
+    @media screen and (max-width: 48rem) {
+      display: block;
+      padding: 0;
+    }
+
+
     
   }
 
