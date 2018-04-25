@@ -28,14 +28,12 @@
     </div>
 </template>
 
+
 <style lang="sass" scoped>
-  .main-content 
+
+.main-content 
     display: grid
     grid-template-rows: 10% 90%
-</style>
-
-
-<style lang="sass">
       
 $bg: white
 $text: black

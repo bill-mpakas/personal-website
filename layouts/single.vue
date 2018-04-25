@@ -2,7 +2,7 @@
   <div id="app">
       <navbar></navbar>
       <div class="box">
-        <transition>
+        <transition name="fade">
           <nuxt /> 
         </transition> 
       </div>
@@ -183,10 +183,12 @@ export default {
 
 .screen-container.cro-case {
   background-image: url('~assets/images/thumbnails/travel-site-compressor.gif');
+  background-position: center;
 }
 .screen-container.cro-case, .screen-container.email-case, .screen-container.fb-case, .screen-container.ppc-case, .screen-container.seo-case-study, .screen-container.web-design {
   background-position: 50% 0;
   background-size: cover;
+  
   }
 .screen-container {
 

@@ -59,7 +59,7 @@ export default {
   $page_color: #625B7E;
 
   .screen-container.cro-case {
-    background-image: url('~assets/images/thumbnails/travel-site-compressor.gif');
+    background-image: url('~assets/images/mockups/pelleescarpa.png');
   }
 
   .right-content {

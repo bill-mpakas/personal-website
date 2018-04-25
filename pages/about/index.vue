@@ -18,7 +18,7 @@
             </p>
           </div>
           <div class="cta">
-            <a class="btn btn--blue" target="_blank" href="/assets/uploads/Bakas_Vasileios_CV_eng.pdf">Download CV</a>
+            <nuxt-link class="btn btn--blue" target="_blank" to="/pdf/Bakas_Vasileios_CV_eng.pdf">Download CV</nuxt-link>
             <nuxt-link class="btn btn--blue" to="projects">View Projects</nuxt-link>
           </div>
       </div>
@@ -29,28 +29,28 @@
          <div class="skills-card">
            <div class="card">
               <span class="card__icon">
-                <img src="~/assets/icons/design.svg" height="60px" alt="">
+                <img src="~/assets/icons/design.svg" height="60px" alt="Design-Icon">
               </span>
               <h3 class="card__title">Design</h3>
               <p class="card__description">I love to design layouts for the web.</p>
             </div>
             <div class="card">
               <span class="card__icon">
-                <img src="~/assets/icons/idea.svg" height="60px" alt="">
+                <img src="~/assets/icons/idea.svg" height="60px" alt="Idea">
               </span>
               <h3 class="card__title">Web Development</h3>
               <p class="card__description">Getting these designs into a working interface, excites me.</p>
             </div>
             <div class="card">
               <span class="card__icon">
-                <img src="~/assets/icons/wordpress-skill.svg" height="60px" alt="">
+                <img src="~/assets/icons/wordpress-skill.svg" height="60px" alt="Wordpress">
               </span>
               <h3 class="card__title">Wordpress</h3>
               <p class="card__description">Wordpress powers up the 30% of the web. <br> I also love it.</p>
             </div>
             <div class="card">
               <span class="card__icon">
-                <img src="~/assets/icons/search.svg" height="60px" alt="">
+                <img src="~/assets/icons/search.svg" height="60px" alt="Search Icon">
               </span>
               <h3 class="card__title">Digital Marketing</h3>
               <p class="card__description">Reach new customers using smart, digital strategies.</p>

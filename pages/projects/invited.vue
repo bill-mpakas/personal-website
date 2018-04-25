@@ -61,7 +61,19 @@ export default {
   $page_color: #1391f1;
 
   .screen-container.cro-case {
-    background-image: url('~assets/images/mockups/invited.png');
+    background-image: url('~assets/images/mockups/Invited-Logo-res.svg');
+    background-color: $page_color;
+    background-position: center; 
+  }
+
+  .screen-container.cro-case, .screen-container.email-case, .screen-container.fb-case, .screen-container.ppc-case, .screen-container.seo-case-study, .screen-container.web-design {
+    background-size: 80%;
+    background-repeat: no-repeat;
+    
+  }
+
+  .project-description__content {
+    text-align: center;
   }
 
   .right-content {

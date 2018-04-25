@@ -2,7 +2,7 @@
   <div id="app">
       <navbar></navbar>
       <div class="box">
-        <transition>
+        <transition name="fade">
           <nuxt /> 
         </transition> 
       </div>
@@ -28,6 +28,7 @@ export default {
 
 <style lang="scss" scoped>
 // override if i want the main container
+
   #app {
 
 

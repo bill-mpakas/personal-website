@@ -7,7 +7,7 @@
         </div>
         <div class="project-description">
           <article class="project-description__content">
-            I really like Wordpress. Wordpress is also popular. In fact 30% of all sites now run on WordPress. So, after taking many courses on Wordpress theme development, i was assigned to build the website for the research committee of my university. Our main focus was to store the data on the website well organized and easy to find. Therefore, we leverage the WP Rest Api for searching content on the website using Javascript and also many other awesome features wordpress offers such as Custom Taxonomies and Custom Fields.  
+            I really like Wordpress. Wordpress is also popular. In fact 30% of all sites now run on WordPress. So, after taking many courses on Wordpress theme development, i was assigned to build the website for the research committee of my university. Our main focus was to store the data on the website well organized and easy to find. Therefore, we leveraged the WP Rest Api for searching content on the website using Javascript and also many useful features wordpress offers such as Custom Taxonomies and Custom Fields.  
           </article>
           <div class="project-description__tech">
             <h3>Technologies Used</h3>
