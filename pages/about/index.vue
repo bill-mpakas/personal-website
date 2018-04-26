@@ -17,7 +17,7 @@
             <h3 class="bio__intro">About me</h3>
             <p class="bio__main">
               I am an aspiring designer/developer based in Thessaloniki. I graduated from the Department of Applied Informatics of University of Macedonia in 2015 and since then i focus on my passion designing and building digital products. 
-              I am huge fan of Marvel's films I also love to play basketball 🏀. 
+              I am huge fan of Marvel's movies and i love playing basketball 🏀. 
             </p>
           </div>
           <div class="cta">

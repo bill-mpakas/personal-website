@@ -7,7 +7,7 @@
         </div>
         <div class="project-description">
           <article class="project-description__content">
-            Eshop for a small business shoe store. Having a grasp of Wordpress, me and my colleague/partner Alexandros builded their Online Presence using Wordpress and WooCommerce. From Seo techniques to photography alognside with the 
+            Eshop for a small business shoe store. Having a grasp of Wordpress, me and my colleague/partner Alexandros builded their Online Presence using Wordpress and WooCommerce. From Seo techniques to photography alongside with the 
             development, we strongly believe that now is the time to for small businesses to focus on E-Commerce and that is the main reason we took on this challenge.
           </article>
           <div class="project-description__tech">
