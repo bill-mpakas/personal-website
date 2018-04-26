@@ -52,7 +52,7 @@ export default {
     height: 85vh;
     grid-template-columns: 100%;
     // border: 0.5px solid lightgrey;
-    box-shadow: 5px 5px 5px lightgray;
+    box-shadow: 3px 3px 3px 5px rgba(0, 0, 0, 0.05);
 
     @media screen and (max-width: 48rem) {
       grid-template-columns: 100%;

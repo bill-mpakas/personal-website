@@ -28,7 +28,9 @@
     grid-template-columns: 50% 50%;
 
     @media screen and (max-width: 800px) {
-       display: block;
+       display: flex;
+       flex-direction: column;
+       padding: 40px 20px 0 0;
       }
   }
 
@@ -47,6 +49,10 @@
     grid-area: hero;
     display: flex;
     flex-flow: column;
+
+    @media screen and (max-width: 48rem) {
+      padding-left: 15px;
+    }
 
     h1 {
       margin: 0;

@@ -57,12 +57,15 @@ export default {
     justify-self:center;
     height: 85vh;
     grid-template-columns: 100%;
-    box-shadow: 5px 5px 5px lightgray;
+    box-shadow: 3px 3px 3px 5px rgba(0, 0, 0, 0.05);
 
     @media screen and (max-width: 48rem) {
-      grid-template-columns: 100%;
-      height: auto;
-      width:100vw;
+      display: block;
+      width: 100%;
+      box-shadow: none;
+      align-self: center;
+      justify-self:center;
+      height: 100%;
     }
 
     

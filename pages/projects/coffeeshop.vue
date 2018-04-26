@@ -23,7 +23,7 @@
           </div>
         </div>
         <div class="project-cta">
-          <a class="btn btn--white" href="/projects/deli-project">Next Project</a>
+          <nuxt-link class="btn btn--blue" to="/projects/deli-project">Next project</nuxt-link>
         </div>
         
       </div>

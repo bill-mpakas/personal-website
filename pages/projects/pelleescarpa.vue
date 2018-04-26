@@ -21,7 +21,7 @@
           </div>
         </div>
         <div class="project-cta">
-          <a class="btn btn--blue" href="/projects/invited">Next Project</a>
+          <nuxt-link class="btn btn--blue" to="/projects/kodiko">Next project</nuxt-link>
         </div>
         
       </div>
