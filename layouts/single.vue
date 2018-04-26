@@ -59,7 +59,10 @@ export default {
 
   .main-content {
 
-    
+    @media screen and (max-width: 48rem) {
+      display: flex;
+      flex-direction: column;
+    }
 
     display: grid;
     grid-template-rows: 100%;
