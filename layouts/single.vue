@@ -28,37 +28,38 @@ export default {
 
 <style lang="scss">
 // override if i want the main container
-  #app {
-    @media screen and (max-width: 48rem) {
+  
+  .box {
+    grid-area:main;
+    display: grid;
+    width: 85vw;
+    align-self: center;
+    justify-self:center;
+    height: 85vh;
     grid-template-columns: 100%;
-    grid-template-rows: auto auto auto;
-    grid-template-areas:
-    "navbar"
-    "main"
-    "footer";
+    // border: 0.5px solid lightgrey;
+    box-shadow: 3px 3px 3px 5px rgba(0, 0, 0, 0.05);
+
+    @media screen and (max-width: 48rem) {
+      grid-template-columns: 100%;
+      width: 100%;
+      height: 100%;
     }
 
-    @media screen and (max-width: 71.250em) {
+     @media screen and (max-height: 1140px) {
+      grid-area:main;
       display: grid;
-      grid-template-columns: auto;
-      grid-template-rows: auto auto auto;
-      grid-template-areas:
-      "navbar"
-      "main"
-      "footer";
+      width: 87vw;
+      height: 100vh;
     }
 
 
-
+    
   }
 
   .main-content {
 
-    @media screen and (max-width: 71.250em) {
-      display: grid;
-      grid-template-rows: auto auto auto;
-      grid-template-columns: auto;
-    }
+    
 
     display: grid;
     grid-template-rows: 100%;
@@ -151,7 +152,7 @@ export default {
 
     @media screen and (max-width: 48rem) {
       grid-template-columns: 100%;
-      width: auto;
+      width: 100%;
       height: 100%;
     }
 

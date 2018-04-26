@@ -13,7 +13,7 @@
   .navigation-menu {
     grid-area: navbar;
     list-style: none;
-    margin-top: 30px;
+    margin-top: 20px;
     display: flex;
     flex-direction: row;
     justify-content: center;

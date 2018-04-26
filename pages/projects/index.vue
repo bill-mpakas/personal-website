@@ -14,6 +14,7 @@
           </ul>
         </div>
       </div>
+      <hr class="hr">
       <div class="right-content">
         <div class="heading">
           <h3>Work</h3>
@@ -35,12 +36,20 @@
 <style lang="scss" scoped>
   $page_color: #2B9CF2;
 
+  .hr {
+          display: none;
+        }
+
   .main-content {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 
     @media screen and (max-width: 700px) {
         display: block;
+
+        .hr {
+          visibility: visible;
+        }
       }
 
   }
@@ -57,6 +66,7 @@
   }
 
   .heading {
+    text-align: center;
     justify-self: center;
     font-size: 1.9em;
     align-self: center;

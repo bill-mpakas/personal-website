@@ -48,6 +48,7 @@
   .hero {
     grid-area: hero;
     display: flex;
+    padding-left: 5px;
     flex-flow: column;
 
     @media screen and (max-width: 48rem) {
@@ -68,6 +69,7 @@
 
     &__intro {
       margin: 0;
+      padding-left: 5px;
     }
 
     &__text {

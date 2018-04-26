@@ -150,9 +150,13 @@
     &__main {
     line-height: 1.8;
     text-align: left;
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     padding: 0 30px 0 30px;
     max-width: 75%;
+
+    @media only screen and (max-height: 900px) {
+      font-size: 0.9rem;
+    }
     }
 
   }

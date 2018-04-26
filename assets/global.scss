@@ -39,6 +39,14 @@ body {
 
 }
 
+.main-content {
+  @media screen and (max-width: 71.250em) {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto;
+  }
+}
+
 .footer {
   grid-area: footer;
   list-style: none;

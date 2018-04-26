@@ -36,15 +36,12 @@ export default {
 }
 // override if i want the main container
   #app {
+    
 
 
     @media screen and (max-width: 48rem) {
-    grid-template-columns: 100%;
-    grid-template-rows: auto auto auto;
-    grid-template-areas:
-    "navbar"
-    "main"
-    "footer";
+     display: flex;
+     flex-direction: column;
     }
 
   }
@@ -67,6 +64,8 @@ export default {
       justify-self:center;
       height: 100%;
     }
+
+    
 
     
   }
