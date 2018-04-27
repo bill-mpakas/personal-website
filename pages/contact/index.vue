@@ -34,6 +34,7 @@
 .main-content 
     display: grid
     grid-template-rows: 10% 90%
+    
       
 $bg: white
 $text: black

@@ -14,7 +14,6 @@
           </ul>
         </div>
       </div>
-      <hr class="hr">
       <div class="right-content">
         <div class="heading">
           <h3>Work</h3>
@@ -42,7 +41,7 @@
 
   .main-content {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-columns: 50% 50%;
 
     @media screen and (max-width: 700px) {
         display: block;

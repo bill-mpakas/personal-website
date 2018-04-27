@@ -39,6 +39,13 @@ body {
 
 }
 
+.box {
+  @media screen and (max-height: 1140px) {
+    width: 90vw;
+    height: 90vh;
+  }
+}
+
 .main-content {
   @media screen and (max-width: 71.250em) {
     display: grid;

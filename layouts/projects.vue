@@ -6,6 +6,9 @@
           <nuxt /> 
         </transition> 
       </div>
+      <div class="footer">
+        <p class="footer__content">Made with ❤️ in Thessaloniki</p>
+      </div>
   </div>
 </template>
 
@@ -43,10 +46,10 @@ export default {
   .box {
     grid-area:main;
     display: grid;
-    width: 85vw;
+    width: 93vw;
     align-self: center;
     justify-self:center;
-    height: 85vh;
+    height: 90vh;
     grid-template-columns: 100%;
     // border: 0.5px solid lightgrey;
     box-shadow: 3px 3px 3px 5px rgba(0, 0, 0, 0.05);
@@ -60,9 +63,10 @@ export default {
       height: 100%;
     }
 
-    @media screen and (max-height: 71.250em) {
+    
+    @media screen and (max-height: 1140px) {
+      width: 90vw;
       height: 90vh;
-      width: 88vw;
     }
 
     

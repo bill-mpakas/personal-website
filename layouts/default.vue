@@ -6,9 +6,9 @@
           <nuxt /> 
         </transition> 
       </div>
-      <ul class="footer">
+      <div class="footer">
         <p class="footer__content">Made with ❤️ in Thessaloniki</p>
-      </ul>
+      </div>
   </div>
 </template>
 
@@ -49,10 +49,10 @@ export default {
   .box {
     grid-area:main;
     display: grid;
-    width: 85vw;
+    width: 93vw;
     align-self: center;
     justify-self:center;
-    height: 85vh;
+    height: 90vh;
     grid-template-columns: 100%;
     box-shadow: 3px 3px 3px 5px rgba(0, 0, 0, 0.05);
 

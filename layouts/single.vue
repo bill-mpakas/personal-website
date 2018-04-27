@@ -6,9 +6,9 @@
           <nuxt /> 
         </transition> 
       </div>
-      <ul class="footer">
+      <!-- <div class="footer">
         <p class="footer__content">Made with ❤️ in Thessaloniki</p>
-      </ul>
+      </div> -->
   </div>
 </template>
 
@@ -47,10 +47,8 @@ export default {
     }
 
      @media screen and (max-height: 1140px) {
-      grid-area:main;
-      display: grid;
-      width: 87vw;
-      height: 100vh;
+      width: 90vw;
+      height: 90vh;
     }
 
 
@@ -123,6 +121,12 @@ export default {
 
 .year {
   justify-self: center;
+
+  @media screen and (max-width: 375px) {
+    a {
+      margin-bottom: 40px;
+    }
+  }
 }
 
 
@@ -142,26 +146,6 @@ export default {
   }
 }
 
-  .box {
-    grid-area:main;
-    display: grid;
-    width: 85vw;
-    align-self: center;
-    justify-self:center;
-    height: 85vh;
-    grid-template-columns: 100%;
-    // border: 0.5px solid lightgrey;
-    box-shadow: 3px 3px 3px 5px rgba(0, 0, 0, 0.05);
-
-    @media screen and (max-width: 48rem) {
-      grid-template-columns: 100%;
-      width: 100%;
-      height: 100%;
-    }
-
-    
-  }
-
   .logos {
   display: grid;
   grid-gap: 2.5rem;
@@ -176,10 +160,11 @@ export default {
 }
 
 .laptop {
+  display: flex;
   @media screen and (max-width: 480px) {
-      
+      display: flex;
     }
-  padding: 20px;
+  padding: 10px;
   align-self: center;
   justify-self: center;
   
@@ -188,6 +173,7 @@ export default {
 .screen-container.cro-case {
   background-image: url('~assets/images/mockups/travel-site.jpg');
   background-position: center;
+  
 }
 .screen-container.cro-case, .screen-container.email-case, .screen-container.fb-case, .screen-container.ppc-case, .screen-container.seo-case-study, .screen-container.web-design {
   background-position: 50% 0;
@@ -195,23 +181,29 @@ export default {
   
   }
 .screen-container {
-
+  display: flex;
+  width: 450px;
+  height: 280px;
   @media screen and (max-width: 480px) {
-      min-height: 130px;
+      width: 250px;
+      height: 120px;
+    }
+
+  @media screen and (max-width: 71.250em) {
+      width: 300px;
+      height: 130px;
     }
   min-height: 230px;
   background-color: #fff;
 }
 
 .laptop-screen {
-
+  display: flex;
+  width: auto;
   @media screen and (max-width: 480px) {
-      min-width: 300px;
+      
     }
 
-  position: relative;
-  width: 90%;
-  min-width: 350px;
   padding: 15px;
   border-radius: 11px;
   background-color: #e6e6e6;
@@ -224,13 +216,10 @@ export default {
 }
 
 .laptop-base {
-
-  @media screen and (max-width: 480px) {
-      min-width: 206px;
-    }
-  width: 100%;
   height: 12px;
-  min-width: 480px;
+    @media screen and (max-width: 480px) {
+      display: flex;
+    }
   border-top: 3px solid #ebebeb;
   border-bottom-left-radius: 250px;
   border-bottom-right-radius: 250px;
