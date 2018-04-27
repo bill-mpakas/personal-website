@@ -6,9 +6,6 @@
           <nuxt /> 
         </transition> 
       </div>
-      <div class="footer">
-        <p class="footer__content">Made with ❤️ in Thessaloniki</p>
-      </div>
   </div>
 </template>
 

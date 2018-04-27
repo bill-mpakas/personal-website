@@ -184,6 +184,11 @@ export default {
   display: flex;
   width: 450px;
   height: 280px;
+
+  min-height: 230px;
+  background-color: #fff;
+  
+
   @media screen and (max-width: 480px) {
       width: 250px;
       height: 120px;
@@ -193,8 +198,15 @@ export default {
       width: 300px;
       height: 130px;
     }
-  min-height: 230px;
-  background-color: #fff;
+
+    @media screen and (max-width: 375px) {
+      width: 280px;
+    }
+
+    @media screen and (max-width: 340px) {
+      width: 220px;
+    }
+  
 }
 
 .laptop-screen {
