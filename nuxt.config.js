@@ -41,6 +41,10 @@ module.exports = {
      :"sznQxojAVZdE7lR3zDw0OAtt",
       cacheProvider: "memory" 
     }
+  ],
+    ['@nuxtjs/google-analytics', {
+      id: 'UA-118330874-1'
+    }
   ]
  ],
 

@@ -42,6 +42,7 @@ export default {
 
     @media screen and (max-width: 48rem) {
       grid-template-columns: 100%;
+      box-shadow: none;
       width: 100%;
       height: 100%;
     }
