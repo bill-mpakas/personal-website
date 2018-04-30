@@ -22,7 +22,7 @@
           </div>
           <div class="cta">
             <nuxt-link class="btn btn--blue" target="_blank" to="/pdf/Bakas_Vasileios_CV_eng.pdf">Download CV</nuxt-link>
-            <nuxt-link class="btn btn--blue" to="projects">View Projects</nuxt-link>
+            <nuxt-link class="btn btn--blue" to="/projects" exact>View Projects</nuxt-link>
           </div>
       </div>
       <div class="right-content">
