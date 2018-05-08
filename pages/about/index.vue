@@ -16,8 +16,10 @@
           <div class="bio">
             <h3 class="bio__intro">About me</h3>
             <p class="bio__main">
-              I am an aspiring designer/developer based in Thessaloniki. I graduated from the Department of Applied Informatics of University of Macedonia in 2015 and since then i focus on my passion designing and building digital products. 
-              I am huge fan of Marvel's movies and i love playing basketball 🏀. 
+              Hi, I’m Bill -  an openminded morning person, team player and an aspiring entrepreneur. I am based in Thessaloniki but i enjoy travelling, exploring new places and meeting new people. <br>
+              I have graduated from school at 2010 and started my studies in computer science at the Applied Informatics department of University of Macedonia. Just right after my graduation at 2015 i started my curious learning journey focusing on my passion in design/development. <br>
+              In my free time, i play &#127936; and participate in local running events. <br>
+              If you would like to find out more about my educational and professional background, click the button below to download my Resume
             </p>
           </div>
           <div class="cta">
@@ -114,14 +116,14 @@
 
   .avatar {
     grid-area: avatar;
-    display: grid;
-    grid-gap: 1rem;
-    grid-auto-columns: 100%;
-    grid-template-rows: auto min-content;
-    align-items: center;      /* new */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     
     &__img {
-    width: 170px;
+    margin-top: 5px;
+    flex: 1;
+    width: 80px;
     border-radius: 3px;
     // clip-path: polygon(0% 0%, 100% 3%, 98% 99%, 3 93%);
     clip-path: polygon(4% 1%,99% 0,93% 97%,1% 100%);
@@ -139,11 +141,13 @@
 
   .bio {
     grid-area: bio;
-    display: grid;
-    grid-template-rows: min-content min-content;
-    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 
     &__intro {
+    margin-bottom: 0;
     text-align: center;
     font-size: 1.4rem;
     }
@@ -151,11 +155,12 @@
     line-height: 1.8;
     text-align: left;
     font-size: 1.1rem;
+    text-align: justify;
     padding: 0 30px 0 30px;
-    max-width: 75%;
+    
 
     @media only screen and (max-height: 900px) {
-      font-size: 0.9rem;
+      font-size: 14px;
     }
     }
 
@@ -163,8 +168,7 @@
 
   .cta {
     grid-area: cta;
-    justify-self: center;
-    align-self: center;
+    display: flex;
 
     a {
       margin-right: 10px
